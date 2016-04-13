@@ -1,0 +1,54 @@
+/*About SisterWeb 
+*/
+
+
+.site-wrapper:before {
+   background-size: cover;
+   position: relative;
+    height: 600px;
+    width: 100%;
+    background-image: url('design1.jpg');
+    -webkit-filter: opacity(10%);
+    z-index: -1;
+    background-repeat:no-repeat;
+    display: compact;
+    content: "";
+    display: block;
+}
+
+.cover-container{
+    position: absolute;
+    margin: 0;
+    top: 410px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+
+h4.masthead-brand {
+   display: block;
+   margin: auto;
+    margin: 18px;
+    padding-top: 15px;
+    letter-spacing: 1px;
+    font-size: 2.25vw;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+h1.inner-cover {
+    margin-left: 15px;
+}
+
+.lead {
+    padding-left: 20px;
+    font-size: 1.70vw;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.inner.cover p{
+        text-align: justify;
+        
+}

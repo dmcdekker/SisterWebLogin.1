@@ -1,8 +1,32 @@
-%h4 Event: #{@event.what}
+!!! 5
+%html{:lang => "en"}
+  %head
+    %title 
+    = stylesheet_link_tag 'event', media: "all", "data-turbolinks-track" => true 
+    = javascript_include_tag 'event', "data-turbolinks-track" => true 
+    = csrf_meta_tags
+    /* no bullets of margins on list for navigation*/
+    %meta{:charset => "utf-8"}
+      %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}
+        %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}
+          %meta{:content => "SisterWeb", :name => "description"}
+            %meta{:content => "D.Dekker, K. Jones, Shay Shay, V. Martinez", :name => "author"}
+              %link{:href => "../../favicon.ico", :rel => "icon"}
+                %title SisterWeb
+                / Bootstrap core CSS
+                %link{:href => "../../dist/css/bootstrap.min.css",:rel => "stylesheet"}
+              %style {:type="text/css"} 
+              %script{:src => "https://code.jquery.com/jquery-1.11.3.min.js", :type => "text/javascript"}
+              %script{:src => "js/bootstrap.min.js", :type => "text/javascript"}
 
-%h4
-  Location:
-  = @event.where
-%h4
-  Time:
-  = @event.when.strftime("%B %d, %Y %I:%M%p")
+.event-container
+  .event
+    %h4 Event: #{@event.what}
+    %h4
+      Location:
+      = @event.where
+    %h4
+      Time: 
+      = @event.when.strftime("%B %d, %Y %I:%M%p")
+    %maps    
+      %iframe{:src => "//www.google.com/maps/embed/v1/place?q=Mills College, MacArthur%20Blvd,%20CA\r\n      &zoom=17\r\n      &key=AIzaSyCb5ZojeQarI-w2Xoxef7xJHHRFde6zoOQ"}
