@@ -1,6 +1,11 @@
 class UsersController < ApplicationController
  
     skip_before_filter :set_current_user, :authorize  
+    
+    def index
+     @users = User.all
+    end
+    
   def show
     @user = User.find(params[:id])
   end
@@ -23,6 +28,6 @@ class UsersController < ApplicationController
 
     def user_params
       params.require(:user).permit(:name, :email, :password,
-                                   :password_confirmation)
+                                   :password_confirmation, :school_or_workplace, :technical_expertise, :still_learning)
     end
 end

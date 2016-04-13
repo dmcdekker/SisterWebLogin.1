@@ -21,20 +21,14 @@ ActiveRecord::Schema.define(version: 20160330201651) do
     t.datetime "updated_at"
   end
 
-  create_table "profiles", force: :cascade do |t|
-    t.string   "name"
-    t.string   "school_or_workplace"
-    t.text     "technical_expertise"
-    t.text     "still_learning"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "users", force: :cascade do |t|
     t.string   "name"
     t.string   "email"
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
+    t.string   "school_or_workplace"
+    t.text     "technical_expertise"
+    t.text     "still_learning"
+    t.datetime "created_at",          null: false
+    t.datetime "updated_at",          null: false
     t.string   "password_digest"
   end
 

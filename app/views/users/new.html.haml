@@ -13,4 +13,10 @@
         = f.password_field :password, class: 'form-control'
         = f.label :password_confirmation, "Confirmation"
         = f.password_field :password_confirmation, class: 'form-control'
+        = f.label :school_or_workplace
+        = f.text_field :school_or_workplace, class: 'form-control'
+        = f.label :technical_expertise
+        = f.text_field :technical_expertise, class: 'form-control'
+        = f.label :still_learning
+        = f.text_field :still_learning, class: 'form-control'
         = f.submit "Create my account", class: "btn btn-primary"

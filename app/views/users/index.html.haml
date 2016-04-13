@@ -1,0 +1,16 @@
+%h1 All Profiles
+
+%table#users
+  %thead
+    %tr
+      %th Name
+      %th School or Workplace
+      %th Current Expertise
+      %th I would like to learn more about
+  %tbody
+    - @users.each do |users|
+      %tr
+        %td= users.name
+        %td= users.school_or_workplace
+        %td= users.technical_expertise
+        %td= users.still_learning

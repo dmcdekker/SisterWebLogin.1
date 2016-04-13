@@ -26,7 +26,7 @@ end
 
   get 'events/show'
 
-  resources :profiles
+
   
   resources :users
   root :to => redirect('/staticpages/home')

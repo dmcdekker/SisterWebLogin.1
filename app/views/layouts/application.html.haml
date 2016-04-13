@@ -21,41 +21,14 @@
               %script{:src => "js/bootstrap.min.js", :type => "text/javascript"}
    
   %body
-<<<<<<< HEAD
-    .masthead  
-      .container-masthead
-        .col-md-4
-          %img.img-logo{:alt => "Logo", :height => "70", :src => asset_path("spiral.png"),
-          :width => "70", :style => "float:left"}/
-        .col-md-8  
-          %h3{:style => "float:left"} SisterWeb
-          
-
-  %navbar
-    %ul
-      %li.active
-        %a{:href => "/logout"} LogOut
-      %li.active
-        %a{:href => "/login"} Log In | Sign Up
-      %li{:style => "float:right"}
-        %a{:href => "#forums"} Forums
-      %li{:style => "float:right"}
-        %a{:href => "/calendar"} Calendar
-      %li{:style => "float:right"}
-        %a{:href => "/profiles"} Profiles
-      %li{:style => "float:right"}
-        %a{:href => '/staticpages/home'} Home
-      %li{:style => "float:right"}  
-=======
   = render 'layouts/header'
   
   %navbar
     %ul
       %li= link_to "Log In | Sign Up", '#'
-      %li= link_to "Profiles", '/profiles'
+      %li= link_to "Profiles", '/users'
       %li= link_to "Calendar", '/calendar'
       %li= link_to "Home",   '/staticpages/home'
->>>>>>> 042488a3e62125e7182380fd4276b679becf7499
   
     = yield
 
