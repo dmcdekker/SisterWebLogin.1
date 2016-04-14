@@ -11,6 +11,7 @@
 #
 
 class User < ActiveRecord::Base
+    has_many :comments
     has_secure_password
     attr_accessible :name, :email, :password, :password_confirmation, :school_or_workplace, :technical_expertise, :still_learning
     before_save { self.email = email.downcase }

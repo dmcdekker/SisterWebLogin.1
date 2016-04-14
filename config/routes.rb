@@ -26,9 +26,14 @@ end
 
   get 'events/show'
 
-
+  get 'users/show'
   
-  resources :users
+  
+  
+  resources :users do
+    resources :comments
+  end
+  
   root :to => redirect('/staticpages/home')
   
 end

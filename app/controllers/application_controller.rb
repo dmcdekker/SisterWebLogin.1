@@ -7,12 +7,9 @@ class ApplicationController < ActionController::Base
   def set_current_user
  
   	 if session[:user_id]
-      if session[:provider] 
+      #if session[:provider] 
         @current_user ||= User.find(session[:user_id])
         #raise @current_user.inspect
-      else     
-        @current_user ||=  User.find(session[:user_id])
-      end  
      end  
     
 

@@ -1,13 +1,23 @@
-= @user.name
-, #{@user.email}
-- provide(:title, @user.name)
+
 .row
   %aside.col-md-4
     %section.user_info
-      %h1
+      %h4
         = gravatar_for @user
+      %h2 
+        Name:
         = @user.name
+      %h4 
+        School or Workplace:
         = @user.school_or_workplace
+      %h4
+        Technical Expertise:
         = @user.technical_expertise
+      %h4
+        Still Learning About:
         = @user.still_learning
-        
+
+= form_tag new_user_comment_path(@user) do
+  %label Leave A Comment for #{@user.name}:
+  = text_field :posts, class: 'form-control'
+  = submit_tag 'Post Comment'
