@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
  
-    skip_before_filter :set_current_user, :authorize  
+    skip_before_filter :set_current_user, :authorize, :except => [:index]   
     
     def index
      @users = User.all

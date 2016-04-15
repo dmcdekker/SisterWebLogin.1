@@ -3,6 +3,6 @@
     %tr
       %th All Profiles
   %tbody
-    - @users.each do |users|
+    - @users.each do |user|
       %tr
-        %td= link_to "#{users.name}"
+        %td= link_to "#{user.name}", user_path(user)
