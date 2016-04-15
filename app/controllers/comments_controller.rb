@@ -13,14 +13,14 @@ class CommentsController < ApplicationController
     @user = User.find(params[:user_id])
   end
 
-  def new
+#def new
     #raise params.inspect
-    @comment = @user.comments.build
-  end
-
-  #def new
-    #@user = User.find(params[:user_id])
+    #@comment = @user.comments.build
   #end
+
+  def new
+    #@user = User.find(params[:user_id])
+  end
 
   def edit
     @comment = Comment.find(params[:id])
@@ -33,8 +33,8 @@ class CommentsController < ApplicationController
     #raise @userblog.inspect
     @comment = Comment.new(params[:comment])
     @comment.save
-    redirect_to user_path(@user)
-    #redirect_to user_comment_path(@comment.user_id,@comment.id), notice: 'Comment was successfully created.'
+    #redirect_to user_path(@user)
+    redirect_to user_comment_path(@comment.user_id,@comment.id), notice: 'Comment was successfully created.'
     #redirect_to :root
   end
     

@@ -18,7 +18,4 @@
         = @user.still_learning
 
 
-%label Leave A Comment for #{@user.name}:
-= form_tag user_comments_path(@user.id, @user_id) do
-  = text_field :posts, class: 'form-control'
-  = submit_tag 'Post Comment'
+= link_to 'Leave a Comment', '/comments/new'

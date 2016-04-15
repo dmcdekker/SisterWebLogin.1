@@ -1,0 +1,13 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Comment:</b>
+  <%= @comment.posts %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @comment.user.name %>
+</p>
+
+<%= link_to 'Back', user_comments_path(@comment.user_id) %>

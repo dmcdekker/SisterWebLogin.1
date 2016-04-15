@@ -14,6 +14,10 @@ end
   
   get 'users/new'
 
+  get 'comments/show'
+  
+  get 'comments/new'
+
   resources :users
   get 'staticpages/home'
 
