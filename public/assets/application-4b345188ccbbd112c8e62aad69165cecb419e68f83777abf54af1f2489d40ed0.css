@@ -1,0 +1,154 @@
+@media screen and (max-width: 767px) {
+  /* line 2, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/application.css.scss */
+  body {
+    font-size: 0.9em;
+  }
+}
+/* sm */
+@media screen and (min-width: 768px) {
+  /* line 9, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/application.css.scss */
+  body {
+    font-size: 1em;
+  }
+}
+/* md */
+@media screen and (min-width: 992px) {
+  /* line 16, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/application.css.scss */
+  body {
+    font-size: 1.2em;
+  }
+}
+/* lg */
+@media screen and (min-width: 1200px) {
+  /* line 23, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/application.css.scss */
+  body {
+    font-size: 1.3em;
+  }
+}
+/*Application
+*/
+/* line 34, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/application.css.scss */
+html {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  text-decoration: none;
+  font-color: black;
+}
+
+/* line 41, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/application.css.scss */
+body {
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+/* line 46, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/application.css.scss */
+.masthead {
+  padding-top: 10px;
+  padding-left: 13px;
+}
+
+/* line 52, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/application.css.scss */
+.img-logo {
+  margin: 4em;
+  font-size: 1em;
+  display: inline-block;
+  margin: 0px;
+}
+
+/* line 59, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/application.css.scss */
+h3 {
+  display: inline-block;
+  vertical-align: center;
+  margin-left: 5px;
+  margin-top: 15px;
+  padding: 0px;
+  font-size: 2.5vw;
+  font-weight: 400;
+}
+/* line 68, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/application.css.scss */
+h3 a {
+  font-style: "Helvetica";
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: black;
+}
+
+/* line 76, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/application.css.scss */
+.masthead a {
+  align: top;
+  float: right;
+  text-decoration: none;
+  padding-top: 0x;
+  font-size: 13px;
+  color: white;
+  background-color: #ffab00;
+  border-color: #ffab00;
+  text-decoration: none;
+  line-height: 1.333333;
+  border-radius: .3rem;
+  padding: 5px;
+  margin-right: 8px;
+}
+
+/* line 92, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/application.css.scss */
+.navbar {
+  height: 5px;
+}
+
+/* line 96, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/application.css.scss */
+ul {
+  width: 100%;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  background-color: white;
+  padding: 0px 10px;
+  display: inline-block;
+}
+
+/* line 107, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/application.css.scss */
+li {
+  float: right;
+}
+
+/* line 112, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/application.css.scss */
+li a {
+  display: block;
+  color: #00ace6;
+  text-align: top;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  font-family: "Helvetica Neue";
+  font-size: 1.5vw;
+  margin-right: 8px;
+}
+
+/* footer */
+/* line 128, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/application.css.scss */
+footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  color: #777;
+  text-align: center;
+  font-size: 1.00vw;
+}
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
