@@ -18,12 +18,11 @@
 }
 
 .jumbotron .container-jumbotron {
-    position: absolute;
-    margin: 0;
-    top: 330px;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+  width: 75%;
+  height: 20%;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
 }
 
 
@@ -61,6 +60,8 @@ a.btn.btn-primary.btn-lg{
     transform: translate(-50%, -50%);
 }
 
+
+
 .container a{
     margin-top: 20px;
     margin-left: 5px;
@@ -69,6 +70,8 @@ a.btn.btn-primary.btn-lg{
     font-size: 2.5vw;
     color: black;
 }
+
+
 
 .row-jumbotron {
     margin-top: 60px;

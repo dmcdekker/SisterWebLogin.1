@@ -35,10 +35,12 @@ html{
     font-family: "Helvetica Neue";
     font-style: normal;
     text-decoration: none;
+    font-color: black;
 }
 
 body{
-    margin-right: 0px;
+    margin-right: 4px;
+    margin-left: 4px;
 }
 
 .masthead{
@@ -55,19 +57,19 @@ body{
 }
 
 h3 {
-    
     display: inline-block;
     vertical-align: center;
     margin-left: 5px;
     margin-top: 15px;
     padding: 0px;
+    font-size: 2.5vw;
+    font-weight: 400 ;
 
     a{
     font-style: "Helvetica";
     text-decoration: none; 
     letter-spacing: 1px;
-    font-size: 2.75vw;
-    font-weight: 425;
+    color: black;
     }
 }
 
@@ -124,19 +126,15 @@ ul {
 /* footer */
 
 footer {
-  margin-top: 45px;
-  padding-top: 5px;
-  border-top: 1px solid #eaeaea;
+  margin-top: 40px;
+  padding-top: 20px;
   color: #777;
+  text-align: center;
+  font-size: 1.00vw;
 }
 
-footer a {
-  color: #555;
-}
 
-footer a:hover {
-  color: #222;
-}
+
 
 
 
@@ -158,4 +156,4 @@ footer a:hover {
  *= require_self
  */
  
-@import "bootstrap-sprockets"
+@import "bootstrap-sprockets";

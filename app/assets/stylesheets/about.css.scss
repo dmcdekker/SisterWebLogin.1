@@ -1,11 +1,12 @@
 /*About SisterWeb 
 */
 
-
 .site-wrapper:before {
-   background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;    
    position: relative;
-    height: 600px;
+    height: 500px;
     width: 100%;
     background-image: url('design1.jpg');
     -webkit-filter: opacity(10%);
@@ -16,13 +17,13 @@
     display: block;
 }
 
-.cover-container{
-    position: absolute;
-    margin: 0;
-    top: 410px;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+
+.inner.header{
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
 }
 
 
@@ -38,17 +39,18 @@ h4.masthead-brand {
 }
 
 h1.inner-cover {
+    padding: 5px;
     margin-left: 15px;
+    margin: 0 auto;
+    min-height: 100%;
 }
 
 .lead {
     padding-left: 20px;
-    font-size: 1.70vw;
+    font-size: 1.50vw;
     font-weight: 400;
     text-decoration: none;
+    margin: auto;
 }
 
-.inner.cover p{
-        text-align: justify;
-        
-}
+
