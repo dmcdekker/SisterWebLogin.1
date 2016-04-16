@@ -1,5 +1,14 @@
+!!! 5
+%html{:lang => "en"}
+  %head
+    %title 
+    = stylesheet_link_tag 'login', media: "all", "data-turbolinks-track" => true 
+    = javascript_include_tag 'login', "data-turbolinks-track" => true 
+    = csrf_meta_tags
+
 - provide(:title, "Log in")
-%h1 Log in
+
+%h1 Log in to your account
 .row
   .col-md-6.col-md-offset-3
     = form_for(:session, url: login_path) do |f|
