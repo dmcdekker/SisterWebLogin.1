@@ -1,0 +1,12 @@
+%h1
+  Posts by #{@user.name}
+%table
+  %tr
+    %th Topic
+    %th
+  - @userblogs.each do |userblog|
+    %tr
+      %td= link_to "#{userblog.title}", user_userblog_path(@user.id,userblog.id)
+
+%br/
+= link_to 'New Post', new_user_userblog_path
