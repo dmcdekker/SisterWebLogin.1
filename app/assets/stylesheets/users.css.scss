@@ -1,8 +1,5 @@
-html{
-   font-family: "Helvetica Neue"; 
-    color: #333;
-    weight: 275;
-    padding-bottom:40px;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica Neue"; 
 }
 
 .row{
@@ -24,6 +21,7 @@ section.user_info{
     color: #333;
     height: 400px;
     float: left;
+    margin-right: 10px;
 }
 
 h1{
@@ -35,9 +33,11 @@ h1{
 }
 
 img.gravatar{
+    border: 1px solid #333;
     margin-top: 5px;
     height: 85px;
     width: 85px;
+    margin-right: 6px;
 }
 
 h2{
@@ -48,7 +48,7 @@ h2{
     margin-bottom: 5px;
     color: #4d4d4d;
 }
-h3{
+h7{
     font-size: 3.00vw;
     margin-left: 0;
     font-weight: 280;
