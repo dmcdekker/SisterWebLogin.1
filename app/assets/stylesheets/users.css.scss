@@ -1,0 +1,93 @@
+html{
+   font-family: "Helvetica Neue"; 
+    color: #333;
+    weight: 275;
+    padding-bottom:40px;
+}
+
+.row{
+    padding-top: 15px;
+   margin-left: 20px;
+}
+
+aside.col-md-4{
+    padding-top: 15px;
+    width: 33.33%;
+    margin-left: 15px;
+    margin-right: 5px;
+    height: 425px;
+    padding-bottom: 20px;
+}
+   
+
+section.user_info{
+    font-family: "Helvetica Neue"; 
+    color: #333;
+    height: 400px;
+    float: right;
+}
+
+h1{
+    width: 90px;
+    height: 300px;
+    padding: 3px;
+    margin: 0px;
+    float: left;
+}
+
+img.gravatar{
+    margin-top: 5px;
+    height: 85px;
+    width: 85px;
+}
+
+h2{
+    font-size: 3.90vw;
+    padding-left: 0;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: #4d4d4d;
+}
+h3{
+    font-size: 3.00vw;
+    margin-left: 0;
+    font-weight: 280;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #737373;
+}
+
+h4{
+    font-family: "Helvetica";
+    font-size: 1.75vw;
+    margin-left: 2px;
+    font-weight: 225;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+h5{
+   font-size: 2.90vw;
+    margin-left: 0;
+    font-weight: 225;
+    margin-top: 0px;
+    margin-bottom: 5px; 
+    color:  #a6a6a6;
+}
+
+h6{
+    background-color: #ffab00;
+    border-color: #ffab00;
+    padding: 5px 8px;
+    font-size: 14px;
+    line-height: .75;
+    border-radius: .3rem;
+    margin-top: 7px;
+    width: 128px;
+}
+
+a{
+    text-decoration: none;
+    color: white ;
+}
