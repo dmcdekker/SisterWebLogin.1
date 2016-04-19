@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
 
 
+
   resources :users do
-    resources :comments
+    resources :userblogs
   end
+  
 
 controller :sessions do
     get 'login' => :new
@@ -14,11 +16,7 @@ end
   
   get 'users/new'
 
-  get 'comments/show'
-  
-  get 'comments/new'
 
-  resources :users
   get 'staticpages/home'
 
   get 'staticpages/profiles'

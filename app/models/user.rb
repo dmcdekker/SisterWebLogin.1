@@ -2,16 +2,19 @@
 #
 # Table name: users
 #
-#  id              :integer         not null, primary key
-#  name            :string
-#  email           :string
-#  password_digest :string
-#  created_at      :datetime        not null
-#  updated_at      :datetime        not null
+#  id                  :integer         not null, primary key
+#  name                :string
+#  email               :string
+#  school_or_workplace :string
+#  technical_expertise :text
+#  still_learning      :text
+#  created_at          :datetime        not null
+#  updated_at          :datetime        not null
+#  password_digest     :string
 #
 
 class User < ActiveRecord::Base
-    has_many :comments
+    has_many :userblogs
     has_secure_password
     attr_accessible :name, :email, :password, :password_confirmation, :school_or_workplace, :technical_expertise, :still_learning
     before_save { self.email = email.downcase }

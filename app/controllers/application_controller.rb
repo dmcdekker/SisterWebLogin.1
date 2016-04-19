@@ -6,7 +6,7 @@ class ApplicationController < ActionController::Base
   protected # prevents method from being invoked by a route
   def set_current_user
  
-  	 if session[:user_id]
+     if session[:user_id]
       #if session[:provider] 
         @current_user ||= User.find(session[:user_id])
         #raise @current_user.inspect

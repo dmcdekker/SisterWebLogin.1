@@ -1,0 +1,15 @@
+%p#notice= notice
+%p
+  %b Title:
+  = @userblog.title
+%p
+  %b Description:
+  = @userblog.description
+%p
+  %b User:
+  = @userblog.user.name
+= link_to 'Edit', edit_user_userblog_path(@user.id, @userblog.id)
+
+= link_to 'Destroy', user_userblog_path(@user.id, @userblog.id), method: :delete, data: { confirm: 'Are you sure?' }
+
+= link_to 'Back', user_userblogs_path(@userblog.user_id)

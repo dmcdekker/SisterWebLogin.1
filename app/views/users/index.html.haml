@@ -18,16 +18,19 @@
               %style {:type="text/css"} 
               %script{:src => "https://code.jquery.com/jquery-1.11.3.min.js", :type => "text/javascript"}
               %script{:src => "js/bootstrap.min.js", :type => "text/javascript"}
-    
-
-  %album.text-muted
-    .row
-      .col-lg-4
-        .card
-          - @users.each do |user|
-            %tr
-              %td= link_to "#{user.name}", user_path(user)
-         
+   
+   
+%table#users
+  %thead
+    %tr
+      %th All Profiles
+  %tbody
+    - @users.each do |user|
+      %tr
+        %td= link_to "#{user.name}", user_path(user)
+      
+  
+  
               
             
             

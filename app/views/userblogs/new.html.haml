@@ -1,0 +1,5 @@
+%h2 Enter a new blog for #{@user.name} 
+= form_tag user_userblogs_path, :method => :post do
+	=render :partial => 'form'  
+	= hidden_field :userblog, :user_id, value: @user.id   
+	= submit_tag 'Save Changes'

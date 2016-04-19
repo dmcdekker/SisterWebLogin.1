@@ -25,4 +25,6 @@
       %h5  
         = @user.still_learning
 
-      %h6= link_to 'Leave a Comment', '/comments/new'
+      %h6= link_to 'UserBlog', user_userblogs_path(@user)
+ 
+
