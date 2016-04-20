@@ -1,7 +1,7 @@
 class UserblogsController < ApplicationController
 
   def index
-    @userblogs = Userblog.all
+    @userblogs = User.find(params[:user_id]).userblogs 
     #raise params.inspect
     @user = User.find(params[:user_id])
     # raise @user.inspect 
