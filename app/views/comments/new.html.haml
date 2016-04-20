@@ -1,0 +1,8 @@
+%p
+  %b Enter a new comment for
+  = @userblog.title
+
+= form_tag userblog_comments_path, :method => :post do
+  =render :partial => 'form'  
+  = hidden_field :comment, :userblog_id, value: @userblog.id   
+  = submit_tag 'Save Changes'

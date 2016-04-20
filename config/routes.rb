@@ -2,10 +2,14 @@ Rails.application.routes.draw do
 
 
 
+
   resources :users do
     resources :userblogs
   end
   
+  resources :userblogs do
+    resources :comments
+  end
 
 controller :sessions do
     get 'login' => :new

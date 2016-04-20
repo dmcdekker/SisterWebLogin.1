@@ -12,6 +12,7 @@
 
 class Userblog < ActiveRecord::Base
   belongs_to :user
+  has_many :comments
   attr_accessible :description, :title, :user_id
   validates_presence_of :user_id
 end

@@ -13,3 +13,5 @@
 = link_to 'Destroy', user_userblog_path(@user.id, @userblog.id), method: :delete, data: { confirm: 'Are you sure?' }
 
 = link_to 'Back', user_userblogs_path(@userblog.user_id)
+
+= link_to 'Comment', userblog_comments_path(@userblog)
