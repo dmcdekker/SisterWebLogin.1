@@ -1,47 +1,79 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue"; 
+  margin: 0 auto;
+  font-weight: 225;
 }
 
-.row{
-    padding-top: 15px;
-   margin-left: 20px;
+.container-user{
+  width: 100%;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-.row:before, .row:after {
+.container-user:before, .container-user:after {
     content: " ";
     display: table;
-}
-
-
-aside.col-md-4{
-    padding-top: 60px;
-    margin-left: 50px;
-    margin-right: 5px;
-    height: 425px;
-    padding-bottom: 20px;
-}
-   
-.aside:before, .aside:after {
-    content: " ";
-    display: table;
+    padding-bottom: 100%;
 }
 *:before, *:after {
     box-sizing: border-box;
 }
 
-   
+.row:before, .row:after {
+    content: " ";
+    display: table;
+    
+}
 
+.row{
+   margin-top: 55px;
+   box-sizing: border-box;
+   border: 3px solid #737373;
+   width: 45%;
+   height: 63%;
+   margin: auto;
+   position: absolute;
+   top: 70px; left: 0; bottom: 0; right: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+aside.col-md-4.well{
+    padding-top: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 20px;
+}
+
+.well{
+    height: 55px;
+}
+   
 section.user_info{
     color: #333;
-    height: 350px;
-    width: 50%;
-    float: left;
-    margin-right: 10px;
+    height: 300px;
+    width: 74%;
+    margin: auto;
+    position: absolute;
+    padding-left: 55px;
+    top: 0; left: 0; bottom: 0; right: 0;
 }
 
 h1{
-    width: 90px;
+    width: 115px;
     height: 300px;
+    padding-left: 7px;
     padding-right: 7px;
     margin: 0px;
     float: left;
@@ -50,16 +82,17 @@ h1{
 
 img.gravatar{
     border: 1px solid #333;
-    margin-top: 5px;
-    height: 85px;
-    width: 85px;
-    margin-right: 6px;
+    margin-top: 25px;
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+    padding: 5px;
 }
 
 h2{
     font-size: 3.90vw;
     padding-left: 0;
-    font-weight: 300;
+    font-weight: 305;
     margin-top: 0px;
     margin-bottom: 5px;
     color: #4d4d4d;
@@ -70,17 +103,17 @@ h3{
     font-weight: 280;
     margin-top: 3px;
     margin-bottom: 2px;
-    color: #737373;
+    color:  #666666;
 }
 
 h4{
     font-family: "Helvetica";
-    font-size: 1.75vw;
+    font-size: 1.50vw;
     margin-left: 2px;
     font-weight: 225;
     margin-top: 10px;
     margin-bottom: 0px;
-    color:  #a6a6a6;
+    color: #737373;
 }
 
 h5{
@@ -89,7 +122,7 @@ h5{
     font-weight: 150;
     margin-top: 0px;
     margin-bottom: 5px; 
-    color:  #a6a6a6;
+    color:  #808080;
 }
 
 h6{
