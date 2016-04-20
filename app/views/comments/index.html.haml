@@ -3,14 +3,12 @@
 %table
   %thead
     %tr
-      %th Content
-      %th Userblog
+      %th
       %th{:colspan => "3"}
   %tbody
     - @comments.each do |comment|
       %tr
         %td= comment.content
-        %td= comment.userblog
  
 %br
   = link_to 'New Comment', new_userblog_comment_path

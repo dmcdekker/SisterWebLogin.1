@@ -23,6 +23,7 @@ class CommentsController < ApplicationController
     #raise params.to_yaml 
     @comment = Comment.new(params[:comment])
     @comment.save
+    #redirect_to user_userblog_path(userblog.user_id, userblog_id)
     redirect_to userblog_comments_path(params[:userblog_id]), notice: 'Comment was successfully created.' 
   end
 
