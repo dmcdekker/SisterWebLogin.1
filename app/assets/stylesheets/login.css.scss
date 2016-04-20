@@ -41,29 +41,24 @@ h1{
     content: " ";
     display: table;
     display: block;
-    padding-bottom: 100%;
 }
 
 .row{
-   margin-top: 80px;
+   margin-top: 5px;
    box-sizing: border-box;
    border: 3px solid white;
    width: 50%;
    height: 50%;
    margin: auto;
    position: absolute;
-   top: 70px; left: 0; bottom: 0; right: 0;
+   top: 0; left: 0; bottom: 0; right: 0;
 }
 
 *{
     box-sizing: border-box;
 }
 
-
-
-
 .col-md-6 .col-md-offset-3{
-    margin-top: 50px;
     position: relative;
     width: 120px;
     margin: 0 auto;
@@ -75,7 +70,7 @@ h1{
 .well {
     min-height: 20px;
     padding: 19px;
-    margin-top: 40px;
+    margin-top: 50px;
     margin-bottom: 20px;
     background-color: whitesmoke;
     border: 1px solid #e3e3e3;
