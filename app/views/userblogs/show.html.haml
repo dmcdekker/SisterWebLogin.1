@@ -1,15 +1,28 @@
 %p#notice= notice
 %p
-  %b Title:
+  %b Topic:
   = @userblog.title
 %p
-  %b Description:
+  %b Blog Post:
   = @userblog.description
 %p
-  %b User:
+  %b Author:
   = @userblog.user.name
+
 = link_to 'Edit', edit_user_userblog_path(@user.id, @userblog.id)
 
 = link_to 'Destroy', user_userblog_path(@user.id, @userblog.id), method: :delete, data: { confirm: 'Are you sure?' }
 
 = link_to 'Back', user_userblogs_path(@userblog.user_id)
+
+= link_to 'Comment', new_userblog_comment_path(@userblog)
+%br/
+%br/
+%br/
+%table
+  %tr
+    %th Comments:
+    %th
+  - @userblog.comments.each do |comment|
+    %tr
+      %td= comment.content
