@@ -2,28 +2,15 @@
 %html{:lang => "en"}
   %head
     %title 
-    = stylesheet_link_tag 'index', media: "all", "data-turbolinks-track" => true 
-    = javascript_include_tag 'index', "data-turbolinks-track" => true 
+    = stylesheet_link_tag 'userindex', media: "all", "data-turbolinks-track" => true 
+    = javascript_include_tag 'userindex', "data-turbolinks-track" => true 
     = csrf_meta_tags
     
-    %meta{:charset => "utf-8"}
-      %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}
-        %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}
-          %meta{:content => "SisterWeb", :name => "description"}
-            %meta{:content => "D.Dekker, K. Jones, Shay Shay, V. Martinez", :name => "author"}
-              %link{:href => "../../favicon.ico", :rel => "icon"}
-                %title SisterWeb
-                / Bootstrap core CSS
-                %link{:href => "../../dist/css/bootstrap.min.css",:rel => "stylesheet"}
-              %style {:type="text/css"} 
-              %script{:src => "https://code.jquery.com/jquery-1.11.3.min.js", :type => "text/javascript"}
-              %script{:src => "js/bootstrap.min.js", :type => "text/javascript"}
-   
-   
+    
 %table#users
   %thead
     %tr
-      %th All Profiles
+      %th Browse Profiles
   %tbody
     - @users.each do |user|
       %tr

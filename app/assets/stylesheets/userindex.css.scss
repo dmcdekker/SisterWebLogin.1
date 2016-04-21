@@ -1,0 +1,41 @@
+table#users{
+     margin-top: 40px;
+     width: 50%;
+     position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+thead{
+    float: center;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+th{
+    font-family: "Helvetica Neue";
+    font-size: 3.0vw;
+    color: #333;
+    font-weight: 315;
+    overflow: auto;
+    padding: 10px 0;
+    border: 5px solid #007599;
+    background-color: #00b0e6;
+}
+
+td {
+    overflow: auto;
+    padding: 10px 0;
+    border: 4px solid #66aacc;
+    background-color: #e6f9ff;
+ a{
+    font-family: "Helvetica Neue";
+    font-size: 3.0vw; 
+    margin-left: 30px;
+    text-decoration: none;
+    color: #4d4d4d;
+}
+}
+
