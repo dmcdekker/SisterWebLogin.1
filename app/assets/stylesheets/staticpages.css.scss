@@ -6,15 +6,15 @@
    -moz-background-size: cover;
    -o-background-size: cover;
    position: relative;
-    height: 420px;
+    height: 650px;
     width: 100%;
-    background-image: url('web2.jpg');
-    -webkit-filter: opacity(20%);
+    background-image: url('design1.jpg');
+    -webkit-filter: opacity(15%);
     z-index: -1;
     background-repeat:no-repeat;
     display: compact;
     content: "";
-    display: block;
+    display:block;
 }
 
 .jumbotron .container-jumbotron {
@@ -29,10 +29,10 @@
 .container-jumbotron h1 {
    display:block;
    margin: auto;
-   color: #333;
+   color: #4d4d4d;
    font-size: 3.7vw;
    letter-spacing: .75px;
-   font-weight: 400;
+   font-weight: 500;
    margin-bottom: 70px;
 }
 
@@ -68,13 +68,13 @@ a.btn.btn-primary.btn-lg{
     font-style: regular;
     font-weight: 400;
     font-size: 2.5vw;
-    color: black;
+    color: #66666;
 }
 
 
 
 .row-jumbotron {
-    margin-top: 60px;
+    margin-top: 70px;
     text-align: center;
     width: 100%;
     display: table;
@@ -84,57 +84,12 @@ a.btn.btn-primary.btn-lg{
 
 .col-lg-4 {
     size: 15px;
-    display: table-cell;
-    color: black;  
+    display:table-cell;
 }
 
-/*About SisterWeb 
-*/
-
-
-.site-wrapper:before {
-   background-size: cover;
-   position: relative;
-    height: 600px;
-    width: 100%;
-    background-image: url('design1.jpg');
-    -webkit-filter: opacity(10%);
-    z-index: -1;
-    background-repeat:no-repeat;
-    display: compact;
-    content: "";
-    display: block;
-}
-
-.cover-container{
-    position: absolute;
-    margin: 0;
-    top: 375px;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+h2{
+    color: #66666; 
 }
 
 
-h4.masthead-brand {
-   display: block;
-   margin: auto;
-    margin: 18px;
-    padding-top: 15px;
-    letter-spacing: 1px;
-    font-size: 2.25vw;
-    font-weight: 400;
-    text-decoration: none;
-}
 
-h1.inner-cover {
-    margin-left: 15px;
-}
-
-.lead {
-    padding-left: 20px;
-    font-size: 1.70vw;
-    font-weight: 400;
-    text-decoration: none;
-    justify: center;
-}

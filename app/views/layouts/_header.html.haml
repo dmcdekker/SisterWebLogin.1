@@ -1,8 +1,24 @@
-.masthead
-      .logo-container
-      %img.img-logo{:alt => "Logo", :height => "70", :src => asset_path("spiral.png"),
-          :width => "70", :style => "float:left"}/
-      %logout= link_to "LogOut", '/logout'
+!!! 5
+%html{:lang => "en"}
+  %head
+    %title 
+    = stylesheet_link_tag 'custom', media: "all", "data-turbolinks-track" => true 
+    = javascript_include_tag 'custom', "data-turbolinks-track" => true 
+    = csrf_meta_tags
 
-.container
-      %h3= link_to "SisterWeb", '/staticpages/home'
+
+%header.masthead
+  %logout= link_to "LogOut", '/logout'
+
+%nav.nav.navbar-nav.navbar-right
+  %li= link_to "Log In | Sign Up", '/login'
+  %li= link_to "Profiles", '/users'
+  %li= link_to "Calendar", '/calendar'
+  %li= link_to "Home",   '/staticpages/home'
+  %li-logo= link_to 'SisterWeb', '/staticpages/home'
+  
+
+
+
+        
+        

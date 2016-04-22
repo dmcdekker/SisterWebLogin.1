@@ -1,0 +1,89 @@
+.masthead{
+    padding-top: 6px;
+    padding-left: 13px;
+    padding-bottom: 3px;
+    background-color: #0099cc;
+}
+
+ .logo{
+     font-size: 18px;
+     
+ }
+
+.container{
+    height: 30px;
+}
+
+
+
+a{
+    style: "Helvetica Neue";
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+    margin-bottom: 10px;
+    size: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 2.90vw;
+}
+
+
+header.masthead{
+    height: 20px;
+}
+
+.masthead a {
+    float: right;
+    text-decoration: none;
+    padding-top: 0x;
+    font-size: 10px;
+    color: white;
+    background-color: #ffab00;
+    border-color: #ffab00;
+    text-decoration: none;
+    line-height: 1.333333;
+    border-radius: .3rem;
+    padding: 2px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.nav.navbar-nav.navbar-right{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 0px;
+    background-color: #0099cc;
+    padding-bottom: 9px;
+    padding-top: 0px;
+}
+
+li.logo{
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+
+
+  
+  li {
+      float: right;
+      display:inline;
+  }
+  
+  
+  li a {
+      display: block;
+      color: white;
+      text-align: top;
+      padding-top: 10px; 
+      padding-bottom: 5px;
+      padding-left: 1px;
+      padding-right: 6px;
+      text-decoration: none;
+      font-family: "Helvetica Neue";
+      font-size: 1.2vw;
+      list-style: none;
+  }
