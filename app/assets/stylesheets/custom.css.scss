@@ -5,31 +5,10 @@
     background-color: #0099cc;
 }
 
- .logo{
-     font-size: 18px;
-     
- }
 
 .container{
     height: 30px;
 }
-
-
-
-a{
-    style: "Helvetica Neue";
-    font-weight: 500;
-    text-decoration: none;
-    margin-left: 20px;
-    color: white;
-    margin-bottom: 10px;
-    size: 24px;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
-    padding: 5px;
-    font-size: 2.90vw;
-}
-
 
 header.masthead{
     height: 20px;
@@ -39,7 +18,7 @@ header.masthead{
     float: right;
     text-decoration: none;
     padding-top: 0x;
-    margin-top: 5px;
+    margin-top: 0px;
     font-size: 10px;
     color: white;
     background-color: #ffab00;
@@ -57,7 +36,6 @@ header.masthead{
     width: 100%;
     margin-bottom: 0px;
     background-color: #0099cc;
-    padding-bottom: 9px;
     padding-top: 0px;
 }
 
@@ -65,6 +43,20 @@ li.logo{
     margin-bottom: 15px;
     padding-bottom: 10px;
     margin-left: 10px;
+}  
+
+nav a{
+    style: "Helvetica Neue";
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+    margin-bottom: 10px;
+    size: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 2.90vw;
 }
 
 
@@ -79,6 +71,7 @@ li.logo{
       display: block;
       color: white;
       text-align: top;
+      margin-right: 6px;
       padding-top: 10px; 
       padding-bottom: 5px;
       padding-left: 1px;

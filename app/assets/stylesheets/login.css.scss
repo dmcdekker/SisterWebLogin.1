@@ -24,6 +24,9 @@ h1{
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+   width: 50%;
+   height: 60%;
+   top: 0; left: 0; bottom: 0; right: 0;
 }
 
 .container-login:before, .container-login:after {
@@ -34,28 +37,6 @@ h1{
 *:before, *:after {
     box-sizing: border-box;
     
-}
-
-
-.row:before, .row:after {
-    content: " ";
-    display: table;
-    display: block;
-}
-
-.row{
-   margin-top: 5px;
-   box-sizing: border-box;
-   border: 3px solid #f5f5f5;
-   width: 50%;
-   height: 60%;
-   margin: auto;
-   position: absolute;
-   top: 0; left: 0; bottom: 0; right: 0;
-}
-
-*{
-    box-sizing: border-box;
 }
 
 .col-md-6 .col-md-offset-3{

@@ -3,8 +3,9 @@
     margin: 0;
     padding: 5px;
     margin-top: 0px;
-    
-    
+    width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .event{
@@ -16,14 +17,10 @@
 	width: 100%;
 }
 
-.map{
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-}
+
 
 h4{
-	clear: both;
+	clear:both;
     display: inline-block; 
 	font-size: 14px;
 	border-radius: 4px;
@@ -31,8 +28,7 @@ h4{
 	line-height: 14px;
     background-color: #ffab00;
     border-color: #ffab00;
-	text: white;
-	color: #0066ff;
+	color: white;
     text-decoration: none;
     margin-bottom: 10px;
     margin-left: 30%;
