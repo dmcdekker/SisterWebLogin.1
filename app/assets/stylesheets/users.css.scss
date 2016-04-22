@@ -11,81 +11,94 @@
 
 img.gravatar{
     display:block;
-    margin:auto;
+    margin: auto;
     height: 9.0vw;
     width: 9.0vw;
 }
 
 h1{
-    border: 4px solid #66aacc;
-    background-color: #e6f9ff;
-    width: 50%;
+    width: 40%;
     display:block;
     margin:auto;
+    background-color: white;
+    padding-top: 20px;
 }
 
 section.user_info{
     margin-top: 20px;
     display:block;
-    margin:auto;
-    width: 50%;
-    border: 4px solid #66aacc;
-    background: #e6f9ff
+    margin: auto;
+    margin-top: 0 px;
+    margin-bottom: 0px;
+    width: 40%;
+    background-color: white;
+    padding-bottom: 40px;
+}
+
+.user_info{
+    margin-left: 15px;
 }
 
 
-
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue"; 
-  margin:auto;
-  text-align: center;
+  font-weight: 500;
+  margin: auto;
+  
 }
 
 h2{
-    font-size: 3.50vw;
-    padding: 0;
-    margin-top: 10px;
+    font-size: 2.0vw;
+    padding-top: 20px;
     margin-bottom: 5px;
+    margin-left: 30px;
     color: #4d4d4d;
-    border-bottom: 4px solid #66aacc; ;
+    
 }
 h3{
-    font-size: 2.0vw;
+    font-size: 1.50vw;
+    padding-top: 10px;
     margin-left: 0;
     margin-top: 3px;
     margin-bottom: 2px;
     color:  #666666;
+    margin-left: 30px;
 }
 
 h4{
-    font-size: 1.25vw;
+    padding-top: 10px;
+    font-size: 1.15vw;
     margin-left: 2px;
     margin-top: 10px;
     margin-bottom: 0px;
     color: #737373;
+    margin-left: 30px;
 }
 
 h5{
-   font-size: 1.75vw;
+   font-size: 1.5vw;
     margin-left: 0;
     margin-top: 0px;
     margin-bottom: 15px; 
-    color:  #808080;
+    color:  #4d4d4d;
+    margin-left: 30px;
 }
 
 h6{
+    padding-top: 10px;
     background-color: #ffab00;
     border-color: #ffab00;
-    padding: 5px 8px;
-    font-size: 14px;
+    padding: 5px 5px;
     line-height: .75;
     border-radius: .3rem;
     margin-top: 7px;
-    width: 128px;
-    margin-bottom: 20px;
-}
-
+    width: 100px;
 a{
     text-decoration: none;
     color: white;
+    font-size: 12px;
+    margin: auto;
+    text-align: center;
+    padding: 5px 5px;
+}
 }
