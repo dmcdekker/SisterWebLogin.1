@@ -1,0 +1,21 @@
+/* line 2, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/userblogindex.css.scss */
+h1 {
+  font-family: "Helvetica Neue";
+  border: 5px solid #007599;
+  background-color: #00b0e6;
+  width: 40%;
+  display: block;
+  margin: auto;
+  color: black;
+  font-size: 3.0vw;
+  font-weight: 305;
+}
+
+/* line 14, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/userblogindex.css.scss */
+tr {
+  font-size: 1.75vw;
+  margin-left: 0;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  color: #808080;
+}

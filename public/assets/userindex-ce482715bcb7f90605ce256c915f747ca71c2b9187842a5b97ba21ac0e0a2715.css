@@ -1,0 +1,45 @@
+/* line 2, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/userindex.css.scss */
+table#users {
+  padding-top: 30px;
+  margin-top: 40px;
+  width: 50%;
+  position: relative;
+  margin-left: 40px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 13, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/userindex.css.scss */
+thead {
+  padding: 0px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+/* line 22, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/userindex.css.scss */
+th {
+  font-family: "Helvetica Neue";
+  font-size: 1.75vw;
+  color: #66666;
+  font-weight: 500;
+  overflow: auto;
+  padding: 5px 0;
+}
+
+/* line 31, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/userindex.css.scss */
+td {
+  overflow: auto;
+  padding: 10px 0;
+  border-top: 1px solid #cccccc;
+  background-color: white;
+}
+/* line 36, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/userindex.css.scss */
+td a {
+  font-family: "Helvetica Neue";
+  font-size: 1.50vw;
+  margin-left: 30px;
+  text-decoration: none;
+  color: #00ace6;
+}

@@ -1,0 +1,70 @@
+@media screen and (max-width: 767px) {
+  /* line 3, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/application.css.scss */
+  body {
+    font-size: 0.9em;
+  }
+}
+/* sm */
+@media screen and (min-width: 768px) {
+  /* line 10, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/application.css.scss */
+  body {
+    font-size: 1em;
+  }
+}
+/* md */
+@media screen and (min-width: 992px) {
+  /* line 17, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/application.css.scss */
+  body {
+    font-size: 1.2em;
+  }
+}
+/* lg */
+@media screen and (min-width: 1200px) {
+  /* line 24, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/application.css.scss */
+  body {
+    font-size: 1.3em;
+  }
+}
+/*Application
+*/
+/* line 35, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/application.css.scss */
+html {
+  font-family: "Helvetica Neue";
+  font-style: bold;
+  text-decoration: none;
+  color: #666666;
+  font-weight: 400;
+  background-color: #f5f5f5;
+}
+
+/* line 44, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/application.css.scss */
+body {
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+/* footer */
+/* line 53, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/application.css.scss */
+footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  color: #777;
+  text-align: center;
+  font-size: 1.00vw;
+}
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
