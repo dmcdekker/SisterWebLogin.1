@@ -1,0 +1,88 @@
+/* line 1, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+.masthead {
+  padding-top: 6px;
+  padding-left: 13px;
+  padding-bottom: 3px;
+  background-color: #0099cc;
+}
+
+/* line 9, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+.container {
+  height: 30px;
+}
+
+/* line 13, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+header.masthead {
+  height: 20px;
+}
+
+/* line 17, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+.masthead a {
+  float: right;
+  text-decoration: none;
+  padding-top: 0x;
+  margin-top: 0px;
+  font-size: 10px;
+  color: white;
+  background-color: #ffab00;
+  border-color: #ffab00;
+  text-decoration: none;
+  line-height: 1.333333;
+  border-radius: .3rem;
+  padding: 2px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+/* line 34, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+.nav.navbar-nav.navbar-right {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 0px;
+  background-color: #0099cc;
+  padding-top: 0px;
+}
+
+/* line 42, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+li.logo {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+}
+
+/* line 48, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+nav a {
+  style: "Helvetica Neue";
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 20px;
+  color: white;
+  margin-bottom: 10px;
+  size: 24px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 2.90vw;
+}
+
+/* line 64, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+li {
+  float: right;
+  display: inline;
+}
+
+/* line 70, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+li a {
+  display: block;
+  color: white;
+  text-align: top;
+  margin-right: 6px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 1px;
+  padding-right: 6px;
+  text-decoration: none;
+  font-family: "Helvetica Neue";
+  font-size: 1.2vw;
+  list-style: none;
+}
