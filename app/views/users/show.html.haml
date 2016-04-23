@@ -6,25 +6,15 @@
     = javascript_include_tag 'users', "data-turbolinks-track" => true 
     = csrf_meta_tags
     
-.container-user
-  .row
-    .col-md-4.well
-      %section.gravatar
-        %h1= gravatar_for @user
-      %section.user_info    
-        %h2 
-          = @user.name
-        %h3  
-          = @user.school_or_workplace
-        %h4  
-          Expert
-        %h5  
-          = @user.technical_expertise
-        %h4  
-          Newbie
-        %h5  
-          = @user.still_learning
-  
-        %h6= link_to 'My Blog', user_userblogs_path(@user)
+.w3-card-4
+  .w3-container
+    %img.gravatar{:alt => "Avatar", :src => "img_avatar3.png"}/
+  %header.w3-container
+    %h2= @user.name
+    %h3= @user.school_or_workplace
+    %h4 Expert
+    %h5= @user.technical_expertise
+    %h4 Newbie
+    %h5= @user.still_learning  
+    %h6= link_to 'My Blog', user_userblogs_path(@user)
    
-

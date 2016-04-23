@@ -1,20 +1,70 @@
+.col-lg-3{
+    margin-top: 40px;
+    font-family: "Helvetica Neue";
+}
+
+
 
 h1{
-    font-family: "Helvetica Neue";
-    border: 5px solid #007599;
-    background-color: #00b0e6;
+    top: 40px;
+    background-color: white;
     width: 40%;
     display:block;
     margin:auto;
-    color: black;
-    font-size: 3.0vw;
-    font-weight: 305;
+    color: #00ace6;
+    font-size: 1.75vw;
+    font-weight: 500;
+    overflow: auto;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+   
 }
 
-tr {
-    font-size: 1.75vw;
-    margin-left: 0;
-    margin-top: 0px;
-    margin-bottom: 15px; 
-    color:  #808080;
+table {
+    margin-top: 10px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
+
+tbody{
+    display:block;
+    width: 100%;
+}
+    
+    th {
+        font-size: 1.1vw;
+        font-weight: 500;
+        
+}
+
+tr{
+    display:block;
+    margin:auto;
+}
+
+td {
+    font-size: 1.4vw;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    overflow: auto;
+    padding: 10px 0;
+    border-top: 1px solid #cccc;
+}
+    
+  table  a{
+        font-family: "Helvetica Neue";
+        font-size: 1.50vw; 
+        text-decoration: none;
+        color: grey;
+        size: 14px;
+        padding: 4px;
+        border-top: 1px solid #cccccc;
+        border-bottom: 1px solid #cccccc;
+        background-color: white;
+        margin:auto;
+    }
+    

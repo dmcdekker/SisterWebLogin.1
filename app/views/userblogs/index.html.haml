@@ -7,18 +7,18 @@
     = csrf_meta_tags
 
 
-%h1
-  Musings of #{@user.name}
-%table
-  %tr
-    %th Topic
-    %th
-  - @userblogs.each do |userblog|
+.col-lg-3
+  %h1
+    #{@user.name}'s Posts 
+  %table
     %tr
-      %td= link_to "#{userblog.title}", user_userblog_path(@user.id,userblog.id)
-
-%br/
-%br/
-%br/
-%br/
-= link_to 'Write A New Post', new_user_userblog_path
+      %th
+    - @userblogs.each do |userblog|
+      %tr
+        %td= link_to "#{userblog.title}", user_userblog_path(@user.id,userblog.id)
+  
+  %br/
+  %br/
+  %br/
+  %br/
+  = link_to 'Write A New Post', new_user_userblog_path
