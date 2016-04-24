@@ -1,0 +1,166 @@
+/*Homepage
+*/
+/* line 5, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/staticpages.css.scss */
+.jumbotron:before {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+  height: 650px;
+  width: 100%;
+  background-image: url("design1.jpg");
+  -webkit-filter: opacity(15%);
+  z-index: -1;
+  background-repeat: no-repeat;
+  display: compact;
+  content: "";
+  display: block;
+}
+
+/* line 21, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/staticpages.css.scss */
+.jumbotron .container-jumbotron {
+  width: 75%;
+  height: 20%;
+  margin: auto;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* line 31, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/staticpages.css.scss */
+.container-jumbotron h1 {
+  display: block;
+  margin: auto;
+  color: #4d4d4d;
+  font-size: 3.7vw;
+  letter-spacing: .75px;
+  font-weight: 500;
+}
+
+/* line 40, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/staticpages.css.scss */
+h2 {
+  color: black;
+  font-family: "Helvetica Neue";
+  font-size: 2.0vw;
+  font-weight: 400;
+  padding: 0px;
+}
+
+/* line 49, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/staticpages.css.scss */
+.row-jumbotron {
+  margin-top: 70px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: table;
+  font-style: regular;
+  color: black;
+}
+
+/* line 60, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/staticpages.css.scss */
+.col-lg-4 {
+  display: table-cell;
+  width: 270px;
+}
+
+/* line 65, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/staticpages.css.scss */
+a.btn.btn-primary.btn-lg {
+  color: white;
+  background-color: #ffab00;
+  border-color: #ffab00;
+  padding: 8px 18px;
+  font-size: 21px;
+  text-decoration: none;
+  line-height: 1.333333;
+  border-radius: .3rem;
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+/* line 80, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/staticpages.css.scss */
+h2 {
+  font-family: "Helvetic Neue";
+  color: #666666;
+}
+
+/* line 86, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/staticpages.css.scss */
+* /About/
+.site-wrapper {
+  margin-top: 20px;
+}
+
+/* line 92, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/staticpages.css.scss */
+.cover-container {
+  margin-top: 100px;
+  size: 60%;
+  margin-left: auto;
+  margin-left: auto;
+  margin-bottom: 100px;
+}
+
+/* line 101, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/staticpages.css.scss */
+h4.masthead-brand {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+  font-size: 1.6vw;
+  font-weight: 400;
+  text-decoration: none;
+  color: #333333;
+  text-align: center;
+}
+
+/* line 113, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/staticpages.css.scss */
+h1.inner-cover {
+  width: 50%;
+  margin-left: auto;
+  margin-left: auto;
+}
+
+/* line 120, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/staticpages.css.scss */
+p.lead {
+  font-family: "Helvetica Neue";
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 1.3vw;
+  font-weight: 350;
+  text-decoration: none;
+  text-align: justify;
+  color: #333333;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 132, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/staticpages.css.scss */
+  body {
+    font-size: 0.9em;
+  }
+}
+/* sm */
+@media screen and (min-width: 768px) {
+  /* line 139, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/staticpages.css.scss */
+  body {
+    font-size: 1em;
+  }
+}
+/* md */
+@media screen and (min-width: 992px) {
+  /* line 146, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/staticpages.css.scss */
+  body {
+    font-size: 1.2em;
+  }
+}
+/* lg */
+@media screen and (min-width: 1200px) {
+  /* line 153, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/staticpages.css.scss */
+  body {
+    font-size: 1.3em;
+  }
+}

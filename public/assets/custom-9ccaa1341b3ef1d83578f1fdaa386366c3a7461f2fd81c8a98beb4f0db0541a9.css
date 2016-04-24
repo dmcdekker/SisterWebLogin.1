@@ -1,0 +1,105 @@
+@media screen and (max-width: 767px) {
+  /* line 2, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+  body {
+    font-size: 0.9em;
+  }
+}
+/* sm */
+@media screen and (min-width: 768px) {
+  /* line 9, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+  body {
+    font-size: 1em;
+  }
+}
+/* md */
+@media screen and (min-width: 992px) {
+  /* line 16, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+  body {
+    font-size: 1.2em;
+  }
+}
+/* lg */
+@media screen and (min-width: 1200px) {
+  /* line 23, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+  body {
+    font-size: 1.3em;
+  }
+}
+/* line 30, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+.masthead {
+  padding-top: 6px;
+  padding-left: 13px;
+  padding-bottom: 3px;
+  background-color: #0099cc;
+}
+
+/* line 37, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+.container {
+  height: 30px;
+}
+
+/* line 41, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+.nav.navbar-nav.navbar-right {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 0px;
+  background-color: #0099cc;
+  padding-top: 6px;
+  padding-bottom: 10px;
+}
+
+/* line 50, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+li.logo {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  margin-left: 6px;
+}
+
+/* line 56, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+nav a {
+  style: "Helvetica Neue";
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 10px;
+  color: white;
+  margin-bottom: 10px;
+  size: 24px;
+  letter-spacing: 1px;
+  padding: 5px;
+  font-size: 2.90vw;
+}
+
+/* line 71, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+li {
+  float: right;
+  display: inline;
+}
+
+/* line 77, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+li {
+  display: inline;
+  margin: 5px;
+}
+/* line 80, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+li a {
+  text-decoration: none;
+  font-family: "Helvetica Neue";
+  font-size: 1.2vw;
+  list-style: none;
+}
+
+/* footer */
+/* line 90, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  color: #777;
+  text-align: center;
+  font-size: 1.00vw;
+  width: 100%;
+}
+
+/* line 99, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+.container {
+  top: 600px;
+}
