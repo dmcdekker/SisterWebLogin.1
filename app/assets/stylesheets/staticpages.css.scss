@@ -26,6 +26,7 @@
 }
 
 
+
 .container-jumbotron h1 {
    display:block;
    margin: auto;
@@ -46,15 +47,18 @@
 
 .row-jumbotron {
     margin-top: 70px;
-    text-align: center;
     width: 100%;
-    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display:table;
     font-style: regular;
     color: black;      
 }
 
 .col-lg-4 {
     display:table-cell;
+    width: 270px;
 }
 
 a.btn.btn-primary.btn-lg{
@@ -73,17 +77,23 @@ a.btn.btn-primary.btn-lg{
     transform: translate(-50%, -50%);
 }
 h2{
-    color: #66666; 
+    font-family: "Helvetic Neue";
+    color: #666666; 
 }
 
 
 */About/
 
+.site-wrapper{
+    margin-top: 20px;
+}
+
 .cover-container{
-    margin: 30px;
-    width: 50%;
+    margin-top: 100px;
+    size: 60%;
     margin-left: auto;
     margin-left: auto;
+    margin-bottom: 100px;
 }
 
 
