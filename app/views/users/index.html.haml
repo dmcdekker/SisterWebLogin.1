@@ -7,15 +7,18 @@
     = csrf_meta_tags
     
     
-%table#users
-  %thead
-    %tr
-      %th Browse Profiles
-  %tbody
-    - @users.each do |user|
-      %tr
-        %td= link_to "#{user.name}", user_path(user)
-       
+.container
+  .col-md-8
+    %table#users
+      %thead
+        %tr
+          %th Browse Profiles
+      %tbody
+        - @users.each do |user|
+          %tr
+            %td= link_to "#{user.name}", user_path(user)
+  .col-md-4
+    = link_to 'Find Connections', '#'   
         
       
   

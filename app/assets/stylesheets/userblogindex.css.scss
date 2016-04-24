@@ -1,70 +1,85 @@
-.col-lg-3{
+html{
+    size: 100%;
+    margin-bottom: 50px;
+}
+
+.container{
+    margin-left: 15%;
+    margin-right: -15%;
+    
+}
+
+.col-md-8{
     margin-top: 40px;
-    font-family: "Helvetica Neue";
+    width: 45%;
+    display:inline-block;
+    float:left;
+}
+
+.col-md-4{
+    float:left;
+    width: 17%;
+    display:inline-block;
+    margin-top: 43px;
+    background-color: white;
+
+    a{
+        display:block;
+        text-decoration:none;
+        margin: 10px;
+        padding-left: 6px;
+        padding-right: 6px;
+        font-family: "Helvetica Neue";
+        font-size: 1.0vw;
+        color: #00ace6;
+        font-weight: 500;
+        padding: 5px;
+        background-color: white;
+    }
+}
+
+table#blogs{
+    padding-top: 15px;
+    width: 66%;
+    position: relative;
+    margin-left: 30px;
+    margin-left: 10%;
+    background-color: white;
+
+}
+
+thead{
+    padding: 0px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 
 
-h1{
-    top: 40px;
-    background-color: white;
-    width: 40%;
-    display:block;
-    margin:auto;
-    color: #00ace6;
+th{
+    font-family: "Helvetica Neue";
     font-size: 1.75vw;
+    color: #66666;
     font-weight: 500;
     overflow: auto;
-    padding: 10px 0;
-    text-align: center;
-    border-bottom: 1px solid #cccccc;
-   
-}
-
-table {
-    margin-top: 10px;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-}
-
-tbody{
-    display:block;
-    width: 100%;
-}
-    
-    th {
-        font-size: 1.1vw;
-        font-weight: 500;
-        
-}
-
-tr{
-    display:block;
-    margin:auto;
+    padding: 5px 0;
 }
 
 td {
-    font-size: 1.4vw;
-    font-weight: 500;
-    margin-top: 5px;
-    margin-bottom: 5px;
     overflow: auto;
     padding: 10px 0;
-    border-top: 1px solid #cccc;
+    border-top: 1px solid #e6e6e6;
+    background-color: white;
+ a{
+    font-size: 1.50vw; 
+    margin-left: 30px;
+    text-decoration: none;
+    color: #00ace6;
+    margin-bottom: 20px;
+    
 }
-    
-  table  a{
-        font-family: "Helvetica Neue";
-        font-size: 1.50vw; 
-        text-decoration: none;
-        color: grey;
-        size: 14px;
-        padding: 4px;
-        border-top: 1px solid #cccccc;
-        border-bottom: 1px solid #cccccc;
-        background-color: white;
-        margin:auto;
-    }
-    
+}
+
+
+

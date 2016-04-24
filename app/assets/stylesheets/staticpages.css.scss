@@ -22,7 +22,7 @@
   height: 20%;
   margin: auto;
   position: absolute;
-  top: 20px; left: 0; bottom: 0; right: 0;
+  top: 50px; left: 0; bottom: 0; right: 0;
 }
 
 
@@ -33,7 +33,6 @@
    font-size: 3.7vw;
    letter-spacing: .75px;
    font-weight: 500;
-   margin-bottom: 70px;
 }
 
  h2{
@@ -43,34 +42,6 @@
     font-weight: 400;
     padding: 0px;     
 }
-
-
-a.btn.btn-primary.btn-lg{
-    color: white ;
-    background-color: #ffab00;
-    border-color: #ffab00;
-    padding: 8px 18px;
-    font-size: 21px;
-    text-decoration: none;
-    line-height: 1.333333;
-    border-radius: .3rem;
-    display: inline-block; 
-    margin-left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-}
-
-
-
-.container a{
-    margin-top: 20px;
-    margin-left: 5px;
-    font-style: regular;
-    font-weight: 400;
-    font-size: 2.5vw;
-    color: #66666;
-}
-
 
 
 .row-jumbotron {
@@ -83,13 +54,65 @@ a.btn.btn-primary.btn-lg{
 }
 
 .col-lg-4 {
-    size: 15px;
     display:table-cell;
 }
 
+a.btn.btn-primary.btn-lg{
+    color: white ;
+    background-color: #ffab00;
+    border-color: #ffab00;
+    padding: 8px 18px;
+    font-size: 21px;
+    text-decoration: none;
+    line-height: 1.333333;
+    border-radius: .3rem;
+    display: inline-block; 
+    margin-top: 40px;
+    margin-left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
 h2{
     color: #66666; 
 }
 
 
+*/About/
 
+.cover-container{
+    margin: 30px;
+    width: 50%;
+    margin-left: auto;
+    margin-left: auto;
+}
+
+
+h4.masthead-brand {
+    display:block;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    font-size: 1.6vw;
+    font-weight: 400;
+    text-decoration: none;
+    color: #333333;
+    text-align: center;
+}
+
+h1.inner-cover {
+    width: 50%;
+    margin-left: auto;
+    margin-left: auto;
+    
+}
+
+p.lead {
+    font-family: "Helvetica Neue";
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 1.3vw;
+    font-weight: 350;
+    text-decoration: none;
+    text-align: justify;
+    color: #333333;
+}
