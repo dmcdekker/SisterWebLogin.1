@@ -5,14 +5,10 @@
     = stylesheet_link_tag 'custom', media: "all", "data-turbolinks-track" => true 
     = javascript_include_tag 'custom', "data-turbolinks-track" => true 
     = csrf_meta_tags
-
-
-%header.masthead
-  %logout= link_to "LogOut", '/logout'
   
-
 %nav.nav.navbar-nav.navbar-right
-  %li= link_to "Log In | Out", '/login'
+  %li= link_to "Log Out", '/logout'
+  %li= link_to "Log In", '/login'
   %li= link_to "Profiles", '/users'
   %li= link_to "Calendar", '/calendar'
   %li= link_to "Home",   '/staticpages/home'
