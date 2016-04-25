@@ -9,10 +9,12 @@ class CommentsController < ApplicationController
 
   def show
     @comment = Comment.find(params[:id])
+    
   end
 
   def new
     @userblog = Userblog.find(params[:userblog_id]) 
+    
   end
 
   def edit
@@ -22,6 +24,7 @@ class CommentsController < ApplicationController
   def create
     #raise params.to_yaml 
     @comment = Comment.new(params[:comment])
+    
     @comment.save
     redirect_to user_userblog_path(@comment.userblog.user_id, @comment.userblog_id)
   

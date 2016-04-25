@@ -25,4 +25,6 @@
     %th
   - @userblog.comments.each do |comment|
     %tr
+      %td= comment.creator
+      %th said:
       %td= comment.content

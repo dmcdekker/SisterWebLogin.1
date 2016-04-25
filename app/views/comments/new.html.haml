@@ -4,5 +4,6 @@
 
 = form_tag userblog_comments_path, :method => :post do
   =render :partial => 'form'  
-  = hidden_field :comment, :userblog_id, value: @userblog.id   
+  = hidden_field :comment, :userblog_id, value: @userblog.id
+  = hidden_field :comment, :creator, value: @current_user.name
   = submit_tag 'Save Changes'
