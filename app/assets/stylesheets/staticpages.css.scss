@@ -40,13 +40,14 @@
     color: black;
     font-family: "Helvetica Neue";
     font-size: 2.0vw;
-    font-weight: 400;
+    font-weight: 500;
     padding: 0px;     
 }
 
 
 .row-jumbotron {
-    margin-top: 70px;
+    margin-top: 45px;
+    margin-bottom: 20px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -89,11 +90,12 @@ h2{
 }
 
 .cover-container{
-    margin-top: 100px;
-    size: 60%;
-    margin-left: auto;
-    margin-left: auto;
+    margin-top: 70px;
     margin-bottom: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 
@@ -110,7 +112,7 @@ h4.masthead-brand {
 }
 
 h1.inner-cover {
-    width: 50%;
+    width: 40%;
     margin-left: auto;
     margin-left: auto;
     
@@ -118,13 +120,15 @@ h1.inner-cover {
 
 p.lead {
     font-family: "Helvetica Neue";
-    padding-left: 100px;
-    padding-right: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 115px;
+    padding-right: 115px;
     font-size: 1.3vw;
     font-weight: 350;
     text-decoration: none;
     text-align: justify;
-    color: #333333;
+    color: #1a1a1a;
 }
 
 @media screen and (max-width: 767px) {

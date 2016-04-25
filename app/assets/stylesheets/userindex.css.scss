@@ -5,20 +5,20 @@ html{
 }
 
 .container{
-    margin-left: 14%;
-    margin-right: -14%;
+    margin-left: 17%;
+    margin-right: -17%;
 }
 
 .col-md-8{
     margin-top: 40px;
-    width: 60%;
+    width: 50%;
     display:inline;
     float:left;
 }
 
 
 .col-md-4{
-    width: 13%;
+    width: 15%;
     float:left;
     display:inline;
     margin-top: 43px;
@@ -41,7 +41,7 @@ html{
 
 table#users{
     padding-top: 15px;
-    width: 66%;
+    width: 75%;
     position: relative;
     margin-left: 30px;
     margin-left: 10%;
@@ -61,11 +61,12 @@ thead{
 
 th{
     font-family: "Helvetica Neue";
-    font-size: 1.75vw;
+    font-size: 1.50vw;
     color: #66666;
     font-weight: 500;
     overflow: auto;
     padding: 5px 0;
+    padding-bottom: 15px;
 }
 
 td {
@@ -75,12 +76,19 @@ td {
     background-color: white;
  a{
     font-family: "Helvetica Neue";
-    font-size: 1.50vw; 
+    font-size: 1.40vw; 
     margin-left: 30px;
     text-decoration: none;
     color: #00ace6;
     margin-bottom: 20px;
 }
+}
+
+i.fa.fa-search{
+    margin-left: 16px; 
+    float:left;
+    margin-top: 12px;
+    margin-right: 10px;
 }
 
 @media screen and (max-width: 767px) {

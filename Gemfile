@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 ruby '2.3.0'
+gem 'font-awesome-sass'
 gem 'bcrypt-ruby', '3.1.5', :require => 'bcrypt'
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'

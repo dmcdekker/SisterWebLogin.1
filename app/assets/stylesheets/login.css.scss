@@ -10,7 +10,7 @@ body{
 h1{
   color: #4d4d4d;
   font-family: "Helvetica";
-  font-weight: 300;
+  font-weight: 500;
   padding-top: 5px;
   padding-bottom: 25px;
   font-size: 2.25vw;
@@ -41,7 +41,7 @@ h1{
 
 .col-md-6 .col-md-offset-3{
     position:relative;
-    width: 120px;
+    width: 125px;
     margin: 0 auto;
 }
 
@@ -54,7 +54,7 @@ h1{
 }
 
 form {
-    width: 350px;
+    width: 355px;
     display: block;
     margin-top: 5em;
     margin-left: 3em;
@@ -64,7 +64,7 @@ form {
 label{
     font-family: "Helvetica";
     font-size: 1.1vw;
-    font-weight: 302;
+    font-weight: 500;
     width: 125px;
     margin: 0 auto;
     letter-spacing: 1px;
@@ -75,18 +75,22 @@ label{
 
 p.new{
     height: 90px;
-    width: 140px;
+    width: 145px;
     margin: 0 auto;
     padding-top: 60px;
     padding-bottom: 0px;
     margin-bottom: 0px;
     color: #66666;
+    padding-right: 5px;
+    font-size: 16px;
 }
 p a{
     color: #00ace6;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 13px;
     margin: 0 auto;
+    width: 100px;
+    display:inline;
 }    
 
 input.form-control{
