@@ -9,13 +9,12 @@
   %b Author:
   = @userblog.user.name
 
-= link_to 'Edit', edit_user_userblog_path(@user.id, @userblog.id)
 
-= link_to 'Destroy', user_userblog_path(@user.id, @userblog.id), method: :delete, data: { confirm: 'Are you sure?' }
-
-= link_to 'Back', user_userblogs_path(@userblog.user_id)
-
-= link_to 'Comment', new_userblog_comment_path(@userblog)
+-if @user.id == @current_user.id
+  =render :partial => 'useredit'
+-else
+  =render :partial => 'readeredit'
+ 
 %br/
 %br/
 %br/
@@ -25,6 +24,6 @@
     %th
   - @userblog.comments.each do |comment|
     %tr
-      %td= comment.creator
+      %td= link_to comment.creator, user_path(comment.creatorid)
       %th said:
       %td= comment.content

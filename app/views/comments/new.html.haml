@@ -6,4 +6,5 @@
   =render :partial => 'form'  
   = hidden_field :comment, :userblog_id, value: @userblog.id
   = hidden_field :comment, :creator, value: @current_user.name
+  = hidden_field :comment, :creatorid, value: @current_user.id
   = submit_tag 'Save Changes'

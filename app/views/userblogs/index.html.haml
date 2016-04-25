@@ -17,9 +17,13 @@
         - @userblogs.each do |userblog|
           %tr
             %td= link_to "#{userblog.title}", user_userblog_path(@user.id,userblog.id)
+
+
   .col-md-4
     %tr
-    = link_to 'New Post', new_user_userblog_path
-    = link_to 'Browse Profiles', '/users'
-
+- if @user.id == @current_user.id
+  = link_to 'New Post', new_user_userblog_path
+  = link_to 'Browse Profiles', '/users'
+- else
+  = link_to 'Browse Profiles', '/users'
  
