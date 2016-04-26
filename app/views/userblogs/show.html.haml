@@ -7,18 +7,17 @@
     = csrf_meta_tags
 
 .container
-  .col-md-8
   %p#notice= notice
-  %p
-    %b= @userblog.user.name 
-    %b wrote 
-    = @userblog.title
-  %p
-    %b 
-    = @userblog.description
+  .table#notice
+    %p
+      %b= @userblog.user.name 
+      %b wrote 
+      = @userblog.title
+    %p
+      %b 
+      = @userblog.description
   
   
-  .col-md-4
   -if @user.id == @current_user.id
     =render :partial => 'useredit'
   -else
@@ -29,10 +28,11 @@
   %br/
   
   %table#comments
-    %tr
-      %th Comments
-      %th
-    - @userblog.comments.each do |comment|
+    %thead
       %tr
-        %td= link_to comment.creator, user_path(comment.creatorid)
-        %td= comment.content
+        %th Comments
+      %tbody
+        - @userblog.comments.each do |comment|
+          %td= link_to comment.creator, user_path(comment.creatorid)
+          %tr
+            %td= comment.content
