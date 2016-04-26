@@ -10,16 +10,15 @@
   .col-md-8
   %p#notice= notice
   %p
-    %b= @userblog.user.name
-  %p
-    %b posted 
+    %b= @userblog.user.name 
+    %b wrote 
     = @userblog.title
   %p
-    %b Write a comment
+    %b 
     = @userblog.description
   
   
-  
+  .col-md-4
   -if @user.id == @current_user.id
     =render :partial => 'useredit'
   -else
@@ -28,13 +27,12 @@
   %br/
   %br/
   %br/
-  .col-md-4
-  %table
+  
+  %table#comments
     %tr
-      %th Comments:
+      %th Comments
       %th
     - @userblog.comments.each do |comment|
       %tr
         %td= link_to comment.creator, user_path(comment.creatorid)
-        %th said:
         %td= comment.content
