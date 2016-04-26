@@ -11,7 +11,7 @@
 
 class Comment < ActiveRecord::Base
   belongs_to :userblog
-  attr_accessible :content, :userblog_id
+  attr_accessible :content, :creator, :creatorid, :userblog_id
   
   validates :content, :presence => true 
 
