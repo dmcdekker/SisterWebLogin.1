@@ -1,29 +1,40 @@
-%p#notice= notice
-%p
-  %b Topic:
-  = @userblog.title
-%p
-  %b Blog Post:
-  = @userblog.description
-%p
-  %b Author:
-  = @userblog.user.name
+!!! 5
+%html{:lang => "en"}
+  %head
+    %title 
+    = stylesheet_link_tag 'blogpost', media: "all", "data-turbolinks-track" => true 
+    = javascript_include_tag 'blogpost', "data-turbolinks-track" => true 
+    = csrf_meta_tags
 
-
--if @user.id == @current_user.id
-  =render :partial => 'useredit'
--else
-  =render :partial => 'readeredit'
- 
-%br/
-%br/
-%br/
-%table
-  %tr
-    %th Comments:
-    %th
-  - @userblog.comments.each do |comment|
+.container
+  .col-md-8
+  %p#notice= notice
+  %p
+    %b= @userblog.user.name
+  %p
+    %b posted 
+    = @userblog.title
+  %p
+    %b Write a comment
+    = @userblog.description
+  
+  
+  
+  -if @user.id == @current_user.id
+    =render :partial => 'useredit'
+  -else
+    =render :partial => 'readeredit'
+   
+  %br/
+  %br/
+  %br/
+  .col-md-4
+  %table
     %tr
-      %td= link_to comment.creator, user_path(comment.creatorid)
-      %th said:
-      %td= comment.content
+      %th Comments:
+      %th
+    - @userblog.comments.each do |comment|
+      %tr
+        %td= link_to comment.creator, user_path(comment.creatorid)
+        %th said:
+        %td= comment.content

@@ -21,12 +21,12 @@
 
   .col-md-4
     %tr
-- if @user.id == @current_user.id
-  %i.fa.fa-pencil
-  = link_to 'New Post', new_user_userblog_path
-  %i.fa.fa-search
-  = link_to 'Browse Profiles', '/users'
-- else
-  %i.fa.fa-search
-  = link_to 'Browse Profiles', '/users'
- 
+    - if @user.id == @current_user.id
+      %i.fa.fa-pencil
+      = link_to 'New Post', new_user_userblog_path
+      %i.fa.fa-search
+      = link_to 'Browse Profiles', '/users'
+    - else
+      %i.fa.fa-search
+      = link_to 'Browse Profiles', '/users'
+   
