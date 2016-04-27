@@ -50,8 +50,7 @@ class User < ActiveRecord::Base
            user.provider = auth.provider
            user.uid = auth.uid
         #   user.email = SecureRandom.hex(9) #can use Faker gem to create fake email
-            user.email = 'brenna@test.com'
-            #  Faker::Internet.email
+            user.email =  Faker::Internet.email
            user.oauth_token = auth.credentials.token
            user.name = auth.info.name #need to figure out how to format this correctly 
            # ["nickname", "ghtjg"]
