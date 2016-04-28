@@ -30,7 +30,7 @@ skip_before_filter :set_current_user, :authorize
       end
     rescue 
       flash[:alert] = 'Invalid login credentials.'
-      redirect_to request.referrer
+      redirect_to '/login'
     end
     
     # user.authenticate calls bcrypt to check if email and passwrd match a db entry
@@ -43,7 +43,7 @@ skip_before_filter :set_current_user, :authorize
       redirect_to root_path 
     else
       flash[:alert] = "Invalid login credentials." 
-      redirect_to root_path
+      redirect_to '/login'
     end    
 
   end 
