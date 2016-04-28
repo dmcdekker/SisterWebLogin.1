@@ -34,7 +34,7 @@ class CommentsController < ApplicationController
   def update
     @comment = Comment.find(params[:id])
     @comment.update_attributes(params[:comment])
-
+    #redirect_to user_userblog_path(@comment.userblog.user_id, @comment.userblog_id)
     redirect_to userblog_comment_path(@comment.userblog_id,@comment.id), notice: 'Userblog was successfully updated.' 
   end
 
