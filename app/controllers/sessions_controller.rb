@@ -11,8 +11,8 @@ skip_before_filter :set_current_user, :authorize
   
   def destroy
     session.delete(:user_id)
-    flash[:notice] = 'Logged out successfully.'
-    redirect_to root_path
+    #flash[:notice] = 'Logged out successfully.'
+    redirect_to '/login', notice: 'Logged out successfully'
   end
   
   # new just presents the user with a nice view
@@ -43,7 +43,7 @@ skip_before_filter :set_current_user, :authorize
       redirect_to root_path 
     else
       flash[:alert] = "Invalid login credentials." 
-      redirect_to root_path
+      redirect_to "/login"
     end    
 
   end 
