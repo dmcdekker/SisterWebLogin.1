@@ -1,0 +1,132 @@
+/* line 2, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/users.css.scss */
+.w3-card-4 {
+  background-color: white;
+  width: 33%;
+  margin-top: 60px;
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* line 12, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/users.css.scss */
+img.gravatar {
+  padding-top: 20px;
+  margin-left: 33%;
+  margin-right: -33%;
+  margin-bottom: 0px;
+  height: 9.0vw;
+  width: 11.0vw;
+}
+
+/* line 21, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/users.css.scss */
+h1 {
+  width: 40%;
+  display: block;
+  margin: auto;
+  background-color: white;
+  padding-top: 20px;
+}
+
+/* line 31, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/users.css.scss */
+h2, h3, h4, h5, h6 {
+  font-family: "Helvetica Neue";
+  font-weight: 500;
+  margin: auto;
+}
+
+/* line 38, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/users.css.scss */
+h2 {
+  margin-top: 0px;
+  font-size: 1.75vw;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  color: #00ace6;
+  text-align: center;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+/* line 48, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/users.css.scss */
+h3 {
+  font-size: 1.50vw;
+  padding-top: 10px;
+  margin-left: 0;
+  margin-top: 3px;
+  margin-bottom: 2px;
+  color: #666666;
+  margin-left: 30px;
+}
+
+/* line 58, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/users.css.scss */
+h4 {
+  padding-top: 10px;
+  font-size: 1.1vw;
+  margin-left: 2px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: #737373;
+  margin-left: 30px;
+}
+
+/* line 68, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/users.css.scss */
+h5 {
+  font-size: 1.3vw;
+  margin-left: 0;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  color: #4d4d4d;
+  margin-left: 30px;
+}
+
+/* line 77, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/users.css.scss */
+h6 {
+  background-color: #bfbfbf;
+  border-color: #bfbfbf;
+  width: 100%;
+  text-align: center;
+  vertical-align: center;
+  margin: auto;
+  padding-right: 0px;
+  height: 30px;
+  padding-top: 5px;
+}
+/* line 87, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/users.css.scss */
+h6 a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 97, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/users.css.scss */
+  body {
+    font-size: 0.9em;
+  }
+}
+/* sm */
+@media screen and (min-width: 768px) {
+  /* line 104, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/users.css.scss */
+  body {
+    font-size: 1em;
+  }
+}
+/* md */
+@media screen and (min-width: 992px) {
+  /* line 111, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/users.css.scss */
+  body {
+    font-size: 1.2em;
+  }
+}
+/* lg */
+@media screen and (min-width: 1200px) {
+  /* line 118, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/users.css.scss */
+  body {
+    font-size: 1.3em;
+  }
+}

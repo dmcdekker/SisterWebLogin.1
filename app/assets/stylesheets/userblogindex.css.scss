@@ -4,14 +4,14 @@ html{
 }
 
 .container{
-    margin-left: 15%;
-    margin-right: -15%;
+    margin-left: 17%;
+    margin-right: -17%;
     
 }
 
 .col-md-8{
-    margin-top: 40px;
-    width: 45%;
+    margin-top: 50px;
+    width: 50%;
     display:inline-block;
     float:left;
 }
@@ -20,7 +20,7 @@ html{
     float:left;
     width: 17%;
     display:inline-block;
-    margin-top: 43px;
+    margin-top: 47px;
     background-color: white;
 
     a{
@@ -30,17 +30,18 @@ html{
         padding-left: 6px;
         padding-right: 6px;
         font-family: "Helvetica Neue";
-        font-size: 1.0vw;
+        font-size: 1.1vw;
         color: #00ace6;
         font-weight: 500;
         padding: 5px;
         background-color: white;
+        margin-left: 10px;
     }
 }
 
 table#blogs{
     padding-top: 15px;
-    width: 66%;
+    width: 70%;
     position: relative;
     margin-left: 30px;
     margin-left: 10%;
@@ -59,7 +60,7 @@ thead{
 
 th{
     font-family: "Helvetica Neue";
-    font-size: 1.75vw;
+    font-size: 1.50vw;
     color: #66666;
     font-weight: 500;
     overflow: auto;
@@ -72,14 +73,52 @@ td {
     border-top: 1px solid #e6e6e6;
     background-color: white;
  a{
-    font-size: 1.50vw; 
+    font-size: 1.25vw; 
     margin-left: 30px;
     text-decoration: none;
     color: #00ace6;
-    margin-bottom: 20px;
-    
 }
 }
 
+i.fa.fa-pencil{
+    margin-left: 16px; 
+    float:left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+i.fa.fa-search{
+    margin-left: 16px; 
+    float:left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 0.9em;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 1em;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 1.2em;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1.3em;
+    }
+}
 
 

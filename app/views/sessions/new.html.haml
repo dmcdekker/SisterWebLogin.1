@@ -24,11 +24,17 @@
   .row
     .col-md-6.col-md-offset-3.well
       %h1 Log in 
-      = form_for(:session, url: login_path) do |f|
-        = f.label :email
-        = f.email_field :email, class: 'form-control'
-        = f.label :password
-        = f.password_field :password, class: 'form-control'
-        = f.submit "Log in", class: "btn btn-primary"
+    = form_tag loginuser_path(@user), :method => :post do
+      = label :user, :email, 'Email or Pen Name'
+      %br
+      = text_field :permission, :name
+      %br
+      = label :user, :password, 'Password'
+      %br
+      = password_field :user, :password, {:type => 'password'} 
+      %br
+      = submit_tag 'Log in', :class => 'button small'
+      .button.small	
+      = link_to 'Log in with Twitter', '/auth/twitter'
       %p.new
         New user? #{link_to "Sign up!", '/users/new'}

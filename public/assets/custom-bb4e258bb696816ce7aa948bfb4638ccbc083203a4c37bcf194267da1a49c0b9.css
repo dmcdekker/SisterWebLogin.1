@@ -1,0 +1,181 @@
+@media screen and (max-width: 767px) {
+  /* line 2, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+  body {
+    font-size: 0.9em;
+  }
+}
+/* sm */
+@media screen and (min-width: 768px) {
+  /* line 9, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+  body {
+    font-size: 1em;
+  }
+}
+/* md */
+@media screen and (min-width: 992px) {
+  /* line 16, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+  body {
+    font-size: 1.2em;
+  }
+}
+/* lg */
+@media screen and (min-width: 1200px) {
+  /* line 23, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+  body {
+    font-size: 1.3em;
+  }
+}
+/* line 28, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+html, body {
+  margin-top: 0;
+  padding-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 35, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+.container {
+  height: 30px;
+}
+
+/* line 39, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+.nav.navbar-nav.navbar-right {
+  padding-top: 0px;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 0px;
+  top: 0;
+}
+/* line 45, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+.nav.navbar-nav.navbar-right ul {
+  background-color: #0099cc;
+  padding-top: 10px;
+  padding-bottom: 13px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+/* line 54, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+li.logo {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  margin-left: 6px;
+}
+
+/* line 60, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+nav a {
+  style: "Helvetica Neue";
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 5px;
+  color: white;
+  margin-bottom: 5px;
+  size: 24px;
+  letter-spacing: 1px;
+  padding: 5px;
+  font-size: 2.90vw;
+}
+
+/* line 73, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+li {
+  float: right;
+  display: inline;
+}
+
+/* line 79, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+li {
+  display: inline;
+  margin-right: 0px;
+  margin-left: 12px;
+  padding-top: 10px;
+}
+/* line 85, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+li a {
+  text-decoration: none;
+  font-family: "Helvetica Neue";
+  font-size: 1.2vw;
+  list-style: none;
+  margin-left: 15px;
+}
+
+/* line 94, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+li.dropdown {
+  padding-left: 0px;
+  margin-left: 0px;
+  text-align: left;
+}
+
+/* line 100, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+a.drpbtn {
+  color: transparent;
+  width: 0px;
+  margin: 0px;
+  padding: 0px;
+  margin-right: 10px;
+}
+
+/* line 108, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+.dropbtn {
+  background-color: #0099cc;
+  color: white;
+  padding: 0px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+/* line 117, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* line 121, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* line 128, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+.dropdown-content a {
+  color: black;
+  padding: 2px 3px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding-left: 5px;
+}
+
+/* line 137, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* line 139, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* line 143, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+.dropdown:hover .dropbtn {
+  background-color: #0099cc;
+}
+
+/* footer */
+/* line 150, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  color: #777;
+  text-align: center;
+  font-size: 1.00vw;
+  width: 100%;
+}
+
+/* line 159, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/custom.css.scss */
+.container {
+  top: 600px;
+}

@@ -2,15 +2,16 @@
 %html{:lang => "en"}
   %head
     %title 
-    = stylesheet_link_tag '#', media: "all", "data-turbolinks-track" => true 
-    = javascript_include_tag '#', "data-turbolinks-track" => true 
+    = stylesheet_link_tag 'signup', media: "all", "data-turbolinks-track" => true 
+    = javascript_include_tag 'signup', "data-turbolinks-track" => true 
     = csrf_meta_tags
 
 - provide(:title, 'Sign up')
-%h1 Sign up
+.container-signup
 = succeed ">" do
   .row
-    .col-md-4
+    .col-md-6.col-md-offset-3.well
+      %h1 Sign Up
       = form_for(@user) do |f|
         = render 'shared/error_messages'
         = f.label :name
@@ -19,7 +20,7 @@
         = f.email_field :email, class: 'form-control'
         = f.label :password
         = f.password_field :password, class: 'form-control'
-        = f.label :password_confirmation, "Confirmation"
+        = f.label :password_confirmation, "Reenter Password"
         = f.password_field :password_confirmation, class: 'form-control'
         = f.label :school_or_workplace
         = f.text_field :school_or_workplace, class: 'form-control'

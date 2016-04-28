@@ -5,7 +5,7 @@
     = stylesheet_link_tag 'userblogindex', media: "all", "data-turbolinks-track" => true 
     = javascript_include_tag 'userblogindex', "data-turbolinks-track" => true 
     = csrf_meta_tags
-
+    
 
 .container
   .col-md-8
@@ -21,9 +21,12 @@
 
   .col-md-4
     %tr
-- if @user.id == @current_user.id
-  = link_to 'New Post', new_user_userblog_path
-  = link_to 'Browse Profiles', '/users'
-- else
-  = link_to 'Browse Profiles', '/users'
- 
+    - if @user.id == @current_user.id
+      %i.fa.fa-pencil
+      = link_to 'New Post', new_user_userblog_path
+      %i.fa.fa-search
+      = link_to 'Browse Profiles', '/users'
+    - else
+      %i.fa.fa-search
+      = link_to 'Browse Profiles', '/users'
+   

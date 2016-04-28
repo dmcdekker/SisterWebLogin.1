@@ -1,0 +1,116 @@
+
+.container{
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: -20%;
+    margin-bottom: 20px;
+    width: 45%;
+}
+
+.table#notice{
+    margin-top: 5px;
+    padding-top: 10px;
+    position: relative;
+    display:block;
+    background-color: white;
+    width: 80%;
+    padding: 0px 0;
+    padding-left: 10px;
+    margin-right: 10px;
+    height: 200px;
+ 
+}
+
+.col-md-4{
+    width: 15%;
+    float: right;
+    display:block;
+    padding: 10px 0;
+a{
+        float:right;
+        display:inline-block;
+        text-decoration:none;
+        margin: 10px;
+        padding-left: 10px;
+        padding-right: 6px;
+        font-family: "Helvetica Neue";
+        font-size: 1.0vw;
+        color: #00ace6;
+        font-weight: 500;
+        padding: 5px;
+        background-color: white;
+    }
+}
+
+table#comments{
+    margin-top: 5px;
+    padding-top: 10px;
+    position: relative;
+    display:block;
+    background-color: white;
+    width: 80%;
+    padding: 0px 0;
+    padding-left: 10px;
+    margin-right: 10px;
+    p{
+    text-decoration: none;
+    padding-left: 0px;
+    font-family: "Helvetica Neue";
+    font-size: 1.0vw; 
+    color: #00ace6;
+    height: 20px;  
+    }
+}
+
+tbody{
+    padding-top: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+td{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+tr{
+    margin-left: 10px;
+    padding-bottom: 0px;
+    
+    margin-top: 5px;
+    padding-top: 0px;
+    height: 25px;
+    vertical-align: text-top;
+}
+
+td{
+    margin-bottom: 0px;
+    padding-top: 0px;
+    text-decoration: none;
+    padding-left: 0px;
+    font-family: "Helvetica Neue";
+    font-size: 1.40vw; 
+a{
+    text-decoration: none;
+    padding-left: 0px;
+    font-family: "Helvetica Neue";
+    font-size: 1.40vw; 
+    color: #00ace6;
+    height: 20px;
+    
+    
+}
+}
+
+th{
+    text-align:center;
+    font-family: "Helvetica Neue";
+    font-size: 1.50vw;
+    color: #66666;
+    font-weight: 500;
+    overflow: auto;
+    padding: 5px 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
