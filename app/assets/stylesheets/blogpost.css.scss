@@ -1,45 +1,71 @@
+html{
+    margin: 0;
+}
 
 .container{
-    margin-top: 30px;
     margin-left: 20%;
-    margin-right: -20%;
+    margin-right: 0;
     margin-bottom: 20px;
     width: 45%;
 }
+.container-user a{
+    vertical-align: text-top;    
+    font-family: "Helvetica Neue";
+    font-size: 1.0vw;
+    color: #00ace6;
+    font-weight: 500;
+    padding: 5px;
+    background-color: white;  
+    }
+
 
 .table#notice{
-    margin-top: 5px;
-    padding-top: 10px;
+    margin-top: 30px;
     position: relative;
     display:block;
     background-color: white;
-    width: 80%;
     padding: 0px 0;
-    padding-left: 10px;
     margin-right: 10px;
-    height: 200px;
+    }
+ #notice.table{
+    width: 72%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-family: "Helvetica Neue";
+    font-weight: 500;
+    p{
+        margin: 5px;
+    }
+ }
  
+ h1, h2{
+     font-family: "Helvetica Neue";
+     font-weight: 500;
+     display:inline;
+     font-size: 1.4vw;
+     color: #666666;
+ }
+
+h3{
+    display:inline;
+    font-family: "Helvetica Neue";
+    font-weight: 500;
+    font-size: 1.4vw;
+    color: #00ace6;
 }
 
-.col-md-4{
-    width: 15%;
-    float: right;
-    display:block;
-    padding: 10px 0;
-a{
-        float:right;
-        display:inline-block;
-        text-decoration:none;
-        margin: 10px;
-        padding-left: 10px;
-        padding-right: 6px;
-        font-family: "Helvetica Neue";
-        font-size: 1.0vw;
-        color: #00ace6;
-        font-weight: 500;
-        padding: 5px;
-        background-color: white;
-    }
+h4{
+    font-family: "Helvetica Neue";
+     font-weight: 500;
+     display:inline;
+     font-size: 1.4vw;
+     color: #4d4d4d;
+     margin-top: 5px;
+     margin-bottom: 10px;
+     padding-top: 0px;
 }
 
 table#comments{
@@ -48,17 +74,14 @@ table#comments{
     position: relative;
     display:block;
     background-color: white;
-    width: 80%;
+    width: 75%;
     padding: 0px 0;
     padding-left: 10px;
     margin-right: 10px;
-    p{
-    text-decoration: none;
-    padding-left: 0px;
+  p{ 
     font-family: "Helvetica Neue";
-    font-size: 1.0vw; 
-    color: #00ace6;
-    height: 20px;  
+    color: #666666;
+    height: 20px;
     }
 }
 
@@ -73,32 +96,33 @@ td{
     padding-bottom: 20px;
 }
 
+
 tr{
     margin-left: 10px;
     padding-bottom: 0px;
-    
     margin-top: 5px;
     padding-top: 0px;
     height: 25px;
     vertical-align: text-top;
 }
-
 td{
     margin-bottom: 0px;
     padding-top: 0px;
+    padding-bottom: 5px;
     text-decoration: none;
     padding-left: 0px;
     font-family: "Helvetica Neue";
     font-size: 1.40vw; 
 a{
     text-decoration: none;
+    padding-top: 10px;
     padding-left: 0px;
     font-family: "Helvetica Neue";
     font-size: 1.40vw; 
     color: #00ace6;
     height: 20px;
-    
-    
+    width: 100px;
+    border-botton: 1px solid #e6e6e6;
 }
 }
 
@@ -109,8 +133,8 @@ th{
     color: #66666;
     font-weight: 500;
     overflow: auto;
-    padding: 5px 0;
-    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 8px;
     border-bottom: 1px solid #e6e6e6;
 }
 

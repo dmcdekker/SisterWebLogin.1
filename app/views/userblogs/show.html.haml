@@ -10,18 +10,18 @@
   %p#notice= notice
   .table#notice
     %p
-      %b= @userblog.user.name 
-      %b wrote 
-      = @userblog.title
+      %h1= @userblog.user.name 
+      %h2 wrote 
+      %h3= @userblog.title
     %p
-      %b 
-      = @userblog.description
-  
-  
+      %h4= @userblog.description
+  .container-user
   -if @user.id == @current_user.id
     =render :partial => 'useredit'
   -else
-    =render :partial => 'readeredit'
+    =render :partial => 'readeredit'  
+  
+
    
   %br/
   %br/
@@ -36,3 +36,4 @@
           %td= link_to comment.creator, user_path(comment.creatorid)
           %tr
             %td= comment.content
+            
