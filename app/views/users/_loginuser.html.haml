@@ -1,0 +1,11 @@
+.w3-card-4
+  .w3-container
+    %img.gravatar{:alt => "Avatar", :src => "img_avatar3.png"}/
+  %header.w3-container
+    %h2= @user.name
+    %h3= @user.school_or_workplace
+    %h4 Expert
+    %h5= @user.technical_expertise
+    %h4 Newbie
+    %h5= @user.still_learning  
+    %h6= link_to 'My Blog', user_userblogs_path(@user)

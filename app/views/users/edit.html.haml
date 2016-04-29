@@ -1,0 +1,16 @@
+%h2 Complete Your Profile
+
+= form_tag user_path(@user), :method => :put do
+
+  = label :user, :school_or_workplace, 'School or Workplace: '
+  = text_field :user, :school_or_workplace
+
+  = label :user, :technical_expertise, 'I have technical expertise in: '
+  = text_field :user, :technical_expertise
+ 
+  = label :user, :still_learning, 'I am still learning: '
+  = text_field :user, :still_learning
+  
+  = hidden_field :user, :password, value: SecureRandom.hex(9)
+
+  = submit_tag 'Save Changes'
