@@ -8,7 +8,10 @@ gem 'protected_attributes'
 gem 'annotate', '~> 2.4.1.beta'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5.1'
+gem 'omniauth-twitter'
 
+#faker gem for third party
+gem 'faker'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
