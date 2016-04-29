@@ -1,16 +1,27 @@
-%h2 Complete Your Profile
+!!! 5
+%html{:lang => "en"}
+  %head
+    %title 
+    = stylesheet_link_tag 'editprofile', media: "all", "data-turbolinks-track" => true 
+    = javascript_include_tag 'editprofile', "data-turbolinks-track" => true 
+    = csrf_meta_tags
 
-= form_tag user_path(@user), :method => :put do
-
-  = label :user, :school_or_workplace, 'School or Workplace: '
-  = text_field :user, :school_or_workplace
-
-  = label :user, :technical_expertise, 'I have technical expertise in: '
-  = text_field :user, :technical_expertise
- 
-  = label :user, :still_learning, 'I am still learning: '
-  = text_field :user, :still_learning
-  
-  = hidden_field :user, :password, value: SecureRandom.hex(9)
-
-  = submit_tag 'Save Changes'
+.container-signup
+  .row
+    .col-md-6.col-md-offset-3.well    
+      %h1 Complete Your Profile
+          
+      = form_tag user_path(@user), :method => :put do
+            
+        = label :user, :school_or_workplace, 'School or Workplace'
+        = text_field :user, :school_or_workplace
+      
+        = label :user, :technical_expertise, 'Expert'
+        = text_field :user, :technical_expertise
+       
+        = label :user, :still_learning, 'Newbie'
+        = text_field :user, :still_learning
+        
+        = hidden_field :user, :password, value: SecureRandom.hex(9)
+    
+      = submit_tag 'Save Changes', class: "btn btn-primary"

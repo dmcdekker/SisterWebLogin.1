@@ -15,12 +15,12 @@
       %h3= @userblog.title
     %p
       %h4= @userblog.description
-  .container-user
-  -if @user.id == @current_user.id
-    =render :partial => 'useredit'
-  -else
-    =render :partial => 'readeredit'  
-  
+      %br
+      -if @user.id == @current_user.id
+        =render :partial => 'useredit'
+      -else
+        =render :partial => 'readeredit'  
+      
 
    
   %br/

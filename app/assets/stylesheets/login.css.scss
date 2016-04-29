@@ -6,13 +6,16 @@ body{
     color: #333;
 }
 
+.row{
+    background-color: white;
+}
 
 h1{
   color: #4d4d4d;
   font-family: "Helvetica";
   font-weight: 500;
   padding-top: 5px;
-  padding-bottom: 25px;
+  padding-bottom: 0px;
   font-size: 2.25vw;
    text-align:center;
 }
@@ -41,8 +44,9 @@ h1{
 
 .col-md-6 .col-md-offset-3{
     position:relative;
-    width: 125px;
+    width: 30%;
     margin: 0 auto;
+    padding-bottom: 0;
 }
 
 .well {
@@ -54,7 +58,9 @@ h1{
 }
 
 form {
-    width: 355px;
+    width: 23%;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
     margin-top: 5em;
     margin-left: 3em;
@@ -77,7 +83,7 @@ p.new{
     height: 90px;
     width: 145px;
     margin: 0 auto;
-    padding-top: 60px;
+    padding-top: 40px;
     padding-bottom: 0px;
     margin-bottom: 0px;
     color: #66666;
@@ -87,7 +93,7 @@ p.new{
 p a{
     color: #00ace6;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 16px;
     margin: 0 auto;
     width: 100px;
     display:inline;
@@ -105,10 +111,11 @@ input.form-control{
 }
 
 
-input.btn.btn-primary{
+.button.small{
     color: white ;
     background-color: #ffab00;
     border-color: #ffab00;
+    margin-top: 10px;
     padding: 3px 5px;
     font-size: 12px;
     text-decoration: none;
@@ -116,6 +123,17 @@ input.btn.btn-primary{
     border-radius: .2rem;
     margin-top: 3px;
 }
+input.button.small{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+form a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #00ace6;
+}
+
 
 @media screen and (max-width: 767px) {
     body {

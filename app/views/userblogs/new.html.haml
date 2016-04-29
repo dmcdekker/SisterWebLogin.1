@@ -1,5 +1,18 @@
-%h2 #{@user.name}, enter a new blog
+!!! 5
+%html{:lang => "en"}
+  %head
+    %title 
+    = stylesheet_link_tag 'createcomment', media: "all", "data-turbolinks-track" => true 
+    = javascript_include_tag 'createcomment', "data-turbolinks-track" => true 
+    = csrf_meta_tags
+    
+.container
+  %p#form
+  %h1 #{@user.name} 
+  %h2 wrote
+	
 = form_tag user_userblogs_path, :method => :post do
-	=render :partial => 'form'  
-	= hidden_field :userblog, :user_id, value: @user.id   
-	= submit_tag 'Save Changes'
+
+  = render :partial => 'form'  
+  = hidden_field :userblog, :user_id, value: @user.id   
+  %p.save= submit_tag 'Save Changes'

@@ -12,8 +12,7 @@ h1{
   font-weight: 500;
   padding-top: 5px;
   padding-bottom: 5px;
-  font-size: 2.25vw;
-   text-align:center;
+  font-size: 2.00vw;
 }
 
 .container-signup{
@@ -57,12 +56,11 @@ h1{
 }
 
 form {
-    display: block;
+    display:block;
     margin-top: 5em;
     margin-left: 3em;
     margin: 0 auto;
     background-color: white;
-    padding-left: 40px;
     padding-top: 20px;
     padding-bottom: 30px;
 }
@@ -95,7 +93,7 @@ p a{
     margin: 0 auto;
 }    
 
-input.form-control{
+input#user_school_or_workplace{
     margin-top: 3px;
     margin-bottom: 8px;
     height: 2.0vw;
@@ -104,9 +102,31 @@ input.form-control{
     margin-left: 0 auto;
     margin-right: 0 auto;
     background-color: #f5f5f5;
-    font-size: 12px;
+    width: 90%;
+}
+input#user_technical_expertise{
+    margin-top: 3px;
+    margin-bottom: 8px;
+    height: 2.0vw;
+    width: 80%;
+    display:table;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    background-color: #f5f5f5;
+    width: 90%;
 }
 
+input#user_still_learning{
+    margin-top: 3px;
+    margin-bottom: 8px;
+    height: 2.0vw;
+    width: 80%;
+    display:table;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    background-color: #f5f5f5;
+    width: 90%;
+}
 
 input.btn.btn-primary{
     color: white ;

@@ -1,7 +1,17 @@
-%h2 Edit the following blog information for #{@userblog.user.name} 
+!!! 5
+%html{:lang => "en"}
+  %head
+    %title 
+    = stylesheet_link_tag 'editcomment', media: "all", "data-turbolinks-track" => true 
+    = javascript_include_tag 'editcomment', "data-turbolinks-track" => true 
+    = csrf_meta_tags
+.container
+  %p#form
+    %h1 Edit post by
+    %h2 #{@userblog.user.name} 
 
 = form_tag user_userblog_path(@userblog.user_id, @userblog.id), :method => :put do
 
   = render :partial => 'form'      
   = hidden_field :userblog, :user_id, value: @userblog.user_id 
-  = submit_tag 'Save Changes'
+  %p.save= submit_tag 'Save Changes'

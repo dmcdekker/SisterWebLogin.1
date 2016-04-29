@@ -32,10 +32,11 @@
       %br
       = label :user, :password, 'Password'
       %br
-      = password_field :user, :password, {:type => 'password'} 
+      = password_field :user, :password, {:type => 'password'}
       %br
+      %button-small
       = submit_tag 'Log in', :class => 'button small'
-      .button.small	
+      %br
       = link_to 'Log in with Twitter', '/auth/twitter'
       %p.new
         New user? #{link_to "Sign up!", '/users/new'}

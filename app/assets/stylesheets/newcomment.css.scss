@@ -1,0 +1,63 @@
+.container{
+    width: 25%;
+    padding: 15px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    background-color: white;
+    b{
+        display:inline;
+    }
+}
+
+
+form{
+    display:block;
+    padding: 15px;
+    padding-top: 15px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}   
+
+ h1{
+    display:inline;
+    font-size: 17px;
+ }
+  h2{
+  display:inline;
+  font-size: 17px;
+  color: #00ace6;
+}
+
+
+input{
+    background-color: none;
+}
+p.save input{
+    color: white ;
+    background-color: #ffab00;
+    border-color: #ffab00;
+    margin-top: 5px;
+    padding: 3px 5px;
+    font-size: 12px;
+    text-decoration: none;
+    line-height: .75;
+    border-radius: .2rem;
+}
+
+
+label{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+input#comment_content{
+    width: 90%;
+    height: 100px;
+    vertical-align:top;
+    line-height: 100px;
+}
+
