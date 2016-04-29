@@ -1,0 +1,177 @@
+/* line 1, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/blogpost.css.scss */
+html {
+  margin: 0;
+}
+
+/* line 5, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/blogpost.css.scss */
+.container {
+  margin-top: 60px;
+  margin-left: 20%;
+  margin-right: 0;
+  margin-bottom: 20px;
+  width: 45%;
+  display: block-inline;
+}
+
+/* line 16, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/blogpost.css.scss */
+.table#notice {
+  position: relative;
+  display: block;
+  background-color: white;
+  padding: 0px 0;
+  margin-right: 10px;
+}
+
+/* line 25, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/blogpost.css.scss */
+#notice.table {
+  width: 72%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  font-family: "Helvetica Neue";
+  font-weight: 500;
+}
+/* line 34, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/blogpost.css.scss */
+#notice.table p {
+  margin: 5px;
+}
+
+/* line 39, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/blogpost.css.scss */
+h1 {
+  font-family: "Helvetica Neue";
+  font-weight: 500;
+  display: inline;
+  font-size: 1.4vw;
+  color: #00ace6;
+}
+
+/* line 47, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/blogpost.css.scss */
+h2 {
+  font-family: "Helvetica Neue";
+  font-weight: 500;
+  display: inline;
+  font-size: 1.4vw;
+  color: #66666;
+}
+
+/* line 55, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/blogpost.css.scss */
+h3 {
+  display: inline;
+  font-family: "Helvetica Neue";
+  font-weight: 500;
+  font-size: 1.4vw;
+  color: #00ace6;
+}
+
+/* line 63, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/blogpost.css.scss */
+h4 {
+  font-family: "Helvetica Neue";
+  font-weight: 500;
+  display: inline-block;
+  font-size: 1.4vw;
+  color: #666666;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  padding-top: 0px;
+}
+
+/* line 74, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/blogpost.css.scss */
+#notice.table a {
+  font-family: "Helvetica Neue";
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1.4vw;
+  color: #666666;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 18px;
+  margin-left: 0px;
+}
+
+/* line 93, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/blogpost.css.scss */
+table#comments {
+  margin-top: 5px;
+  padding-top: 10px;
+  position: relative;
+  display: block;
+  background-color: white;
+  width: 75%;
+  padding: 0px 0;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+/* line 103, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/blogpost.css.scss */
+table#comments p {
+  font-family: "Helvetica Neue";
+  font-weight: 500;
+  color: #666666;
+  height: 20px;
+}
+
+/* line 111, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/blogpost.css.scss */
+tbody {
+  padding-top: 25px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+/* line 117, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/blogpost.css.scss */
+td {
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+/* line 123, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/blogpost.css.scss */
+tr {
+  margin-left: 10px;
+  padding-bottom: 0px;
+  margin-top: 5px;
+  padding-top: 0px;
+  height: 25px;
+  vertical-align: text-top;
+}
+
+/* line 131, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/blogpost.css.scss */
+td {
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  padding-left: 0px;
+  font-family: "Helvetica Neue";
+  font-size: 1.40vw;
+}
+/* line 139, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/blogpost.css.scss */
+td a {
+  text-decoration: none;
+  padding-top: 10px;
+  padding-left: 0px;
+  font-family: "Helvetica Neue";
+  font-size: 1.40vw;
+  color: #00ace6;
+  height: 20px;
+  width: 100%;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+/* line 152, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/blogpost.css.scss */
+th {
+  text-align: center;
+  font-family: "Helvetica Neue";
+  font-size: 1.50vw;
+  color: #66666;
+  font-weight: 500;
+  overflow: auto;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e6e6e6;
+}

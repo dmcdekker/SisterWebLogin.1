@@ -1,0 +1,181 @@
+/* line 2, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/login.css.scss */
+body {
+  font-family: "Helvetica Neue";
+  padding-bottom: 70px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* line 9, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/login.css.scss */
+.row {
+  background-color: white;
+}
+
+/* line 13, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/login.css.scss */
+h1 {
+  color: #4d4d4d;
+  font-family: "Helvetica";
+  font-weight: 500;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  font-size: 2.25vw;
+  text-align: center;
+}
+
+/* line 23, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/login.css.scss */
+.container-login {
+  width: 100%;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 50%;
+  height: 60%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* line 35, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/login.css.scss */
+.container-login:before, .container-login:after {
+  content: " ";
+  display: table;
+}
+
+/* line 40, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/login.css.scss */
+*:before, *:after {
+  box-sizing: border-box;
+}
+
+/* line 45, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/login.css.scss */
+.col-md-6 .col-md-offset-3 {
+  position: relative;
+  width: 30%;
+  margin: 0 auto;
+  padding-bottom: 0;
+}
+
+/* line 52, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/login.css.scss */
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+/* line 60, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/login.css.scss */
+form {
+  width: 23%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 5em;
+  margin-left: 3em;
+  margin: 0 auto;
+}
+
+/* line 70, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/login.css.scss */
+label {
+  font-family: "Helvetica";
+  font-size: 1.1vw;
+  font-weight: 500;
+  width: 125px;
+  margin: 0 auto;
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  color: #333;
+}
+
+/* line 82, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/login.css.scss */
+p.new {
+  height: 90px;
+  width: 145px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  color: #66666;
+  padding-right: 5px;
+  font-size: 16px;
+}
+
+/* line 93, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/login.css.scss */
+p a {
+  color: #00ace6;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0 auto;
+  width: 100px;
+  display: inline;
+}
+
+/* line 102, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/login.css.scss */
+input.form-control {
+  margin-top: 3px;
+  margin-bottom: 8px;
+  height: 2.0vw;
+  width: 80%;
+  display: table;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  background-color: #f5f5f5;
+}
+
+/* line 114, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/login.css.scss */
+.button.small {
+  color: white;
+  background-color: #ffab00;
+  border-color: #ffab00;
+  margin-top: 10px;
+  padding: 3px 5px;
+  font-size: 12px;
+  text-decoration: none;
+  line-height: .75;
+  border-radius: .2rem;
+  margin-top: 3px;
+}
+
+/* line 126, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/login.css.scss */
+input.button.small {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* line 131, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/login.css.scss */
+form a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #00ace6;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 139, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/login.css.scss */
+  body {
+    font-size: 0.9em;
+  }
+}
+/* sm */
+@media screen and (min-width: 768px) {
+  /* line 146, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/login.css.scss */
+  body {
+    font-size: 1em;
+  }
+}
+/* md */
+@media screen and (min-width: 992px) {
+  /* line 153, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/login.css.scss */
+  body {
+    font-size: 1.2em;
+  }
+}
+/* lg */
+@media screen and (min-width: 1200px) {
+  /* line 160, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/login.css.scss */
+  body {
+    font-size: 1.3em;
+  }
+}

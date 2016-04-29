@@ -1,0 +1,130 @@
+/* line 1, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/userblogindex.css.scss */
+html {
+  size: 100%;
+  margin-bottom: 50px;
+}
+
+/* line 6, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/userblogindex.css.scss */
+.container {
+  margin-left: 17%;
+  margin-right: -17%;
+}
+
+/* line 12, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/userblogindex.css.scss */
+.col-md-8 {
+  margin-top: 50px;
+  width: 50%;
+  display: inline-block;
+  float: left;
+}
+
+/* line 19, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/userblogindex.css.scss */
+.col-md-4 {
+  float: left;
+  width: 17%;
+  display: inline-block;
+  margin-top: 47px;
+  background-color: white;
+}
+/* line 26, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/userblogindex.css.scss */
+.col-md-4 a {
+  display: block;
+  text-decoration: none;
+  margin: 10px;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-family: "Helvetica Neue";
+  font-size: 1.1vw;
+  color: #00ace6;
+  font-weight: 500;
+  padding: 5px;
+  background-color: white;
+  margin-left: 10px;
+}
+
+/* line 42, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/userblogindex.css.scss */
+table#blogs {
+  padding-top: 15px;
+  width: 70%;
+  position: relative;
+  margin-left: 30px;
+  margin-left: 10%;
+  background-color: white;
+}
+
+/* line 52, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/userblogindex.css.scss */
+thead {
+  padding: 0px;
+  padding-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+/* line 61, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/userblogindex.css.scss */
+th {
+  font-family: "Helvetica Neue";
+  font-size: 1.50vw;
+  color: #66666;
+  font-weight: 500;
+  overflow: auto;
+  padding: 5px 0;
+}
+
+/* line 70, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/userblogindex.css.scss */
+td {
+  overflow: auto;
+  padding: 10px 0;
+  border-top: 1px solid #e6e6e6;
+  background-color: white;
+}
+/* line 75, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/userblogindex.css.scss */
+td a {
+  font-size: 1.25vw;
+  margin-left: 30px;
+  text-decoration: none;
+  color: #00ace6;
+}
+
+/* line 83, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/userblogindex.css.scss */
+i.fa.fa-pencil {
+  margin-left: 16px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+/* line 90, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/userblogindex.css.scss */
+i.fa.fa-search {
+  margin-left: 16px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 98, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/userblogindex.css.scss */
+  body {
+    font-size: 0.9em;
+  }
+}
+/* sm */
+@media screen and (min-width: 768px) {
+  /* line 105, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/userblogindex.css.scss */
+  body {
+    font-size: 1em;
+  }
+}
+/* md */
+@media screen and (min-width: 992px) {
+  /* line 112, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/userblogindex.css.scss */
+  body {
+    font-size: 1.2em;
+  }
+}
+/* lg */
+@media screen and (min-width: 1200px) {
+  /* line 119, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/userblogindex.css.scss */
+  body {
+    font-size: 1.3em;
+  }
+}

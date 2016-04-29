@@ -1,0 +1,81 @@
+/* line 1, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/createcomment.css.scss */
+.container {
+  width: 27%;
+  padding: 15px;
+  padding-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  background-color: white;
+}
+/* line 9, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/createcomment.css.scss */
+.container b {
+  display: inline;
+}
+
+/* line 15, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/createcomment.css.scss */
+form {
+  display: block;
+  padding: 15px;
+  padding-top: 15px;
+  width: 27%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+/* line 25, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/createcomment.css.scss */
+h1 {
+  display: inline;
+  font-size: 17px;
+}
+
+/* line 29, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/createcomment.css.scss */
+h2 {
+  display: inline;
+  font-size: 17px;
+  color: #00ace6;
+}
+
+/* line 36, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/createcomment.css.scss */
+input {
+  background-color: none;
+}
+
+/* line 39, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/createcomment.css.scss */
+p.save input {
+  color: white;
+  background-color: #ffab00;
+  border-color: #ffab00;
+  margin-top: 5px;
+  padding: 3px 5px;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: .75;
+  border-radius: .2rem;
+}
+
+/* line 52, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/createcomment.css.scss */
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #666666;
+}
+
+/* line 58, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/createcomment.css.scss */
+input#userblog_title {
+  font-size: 13px;
+  margin-top: 3px;
+  width: 90%;
+}
+
+/* line 64, /home/ubuntu/workspace/SisterWebLogIn.1/app/assets/stylesheets/createcomment.css.scss */
+input#userblog_description {
+  text-align: top;
+  font-size: 13px;
+  margin-top: 3px;
+  width: 90%;
+  height: 100px;
+  vertical-align: top;
+  line-height: 100px;
+}
