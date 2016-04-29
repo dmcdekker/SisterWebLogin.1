@@ -47,8 +47,6 @@ Rails.application.routes.draw do
 
   get 'events/show'
   
-
-  
   
   
   root :to => redirect('/staticpages/home')

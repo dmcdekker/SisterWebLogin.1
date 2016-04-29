@@ -1,0 +1,6 @@
+.w3-card-4
+  .w3-container
+    %img.gravatar{:alt => "Avatar", :src => "img_avatar3.png"}/
+  %header.w3-container
+    %h2= @user.name
+    %h6= link_to 'Complete Your Profile', edit_user_path(@user)
